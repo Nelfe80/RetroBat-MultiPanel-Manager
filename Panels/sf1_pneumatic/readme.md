@@ -255,7 +255,7 @@ Recommended values:
 
 - Sensitivity: 100  
 - Reverse: Off  
-- Auto-centering Speed: 25  
+- Auto-centering Speed: 50  
 - Increment Speed: 25  
 
 ---
