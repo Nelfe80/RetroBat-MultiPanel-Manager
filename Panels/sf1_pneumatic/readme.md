@@ -240,14 +240,7 @@ mame/cfg/
 
 Inside the game:
 
-TAB → Input (this Game)
-
-Map:
-
-- P1 Punch Analog → Joy 1 R2  
-- P1 Kick Analog → Joy 1 L2  
-
-Then adjust:
+Adjust:
 
 TAB → Analog Input Adjustments
 
@@ -266,9 +259,3 @@ Recommended values:
 2. CircuitPython converts analog values  
 3. Pico exposes USB HID joystick  
 4. MAME interprets axis movement as punch/kick intensity  
-
-No air.  
-No compressor.  
-No legacy electronics.
-
-Just pressure → analog signal → USB → arcade gameplay.
