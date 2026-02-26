@@ -235,8 +235,9 @@ code.py reads FSR, joystick and buttons and sends USB data to the PC.
 # 🎮 MAME Configuration (sfjan)
 
 Copy `sfjan.cfg` into:
-
 mame/cfg/
+or
+if RetroBat : "RetroBat folder"\saves\mame\ctrlr
 
 Inside the game:
 
