@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hiscore system="mame" rom="qbert" updatedAt="28/02/2026  0:20:00,78">
+  <columns>
+    <col index="1">RANK</col>
+    <col index="2">SCORE</col>
+    <col index="3">NAME</col>
+  </columns>
+  <scores>
+    <entry rank="1" score="3000" name="TJC">
+    </entry>
+    <entry rank="2" score="2500" name="JML">
+    </entry>
+    <entry rank="3" score="2000" name="JAH">
+    </entry>
+    <entry rank="4" score="1825" name="VWW">
+    </entry>
+    <entry rank="5" score="1750" name="MJS">
+    </entry>
+    <entry rank="6" score="1500" name="ECW">
+    </entry>
+    <entry rank="7" score="1250" name="BLT">
+    </entry>
+    <entry rank="8" score="1000" name="BMW">
+    </entry>
+    <entry rank="9" score="950" name="DMV">
+    </entry>
+    <entry rank="10" score="825" name="LMG">
+    </entry>
+    <entry rank="11" score="800" name="DDT">
+    </entry>
+    <entry rank="12" score="775" name="JCM">
+    </entry>
+    <entry rank="13" score="750" name="ZAP">
+    </entry>
+    <entry rank="14" score="725" name="NAB">
+    </entry>
+    <entry rank="15" score="700" name="JUN">
+    </entry>
+    <entry rank="16" score="675" name="HFR">
+    </entry>
+    <entry rank="17" score="650" name="RON">
+    </entry>
+    <entry rank="18" score="625" name="FXS">
+    </entry>
+    <entry rank="19" score="600" name="DLB">
+    </entry>
+    <entry rank="20" score="575" name="LEE">
+    </entry>
+    <entry rank="21" score="550" name="CPB">
+    </entry>
+    <entry rank="22" score="525" name="WBD">
+    </entry>
+    <entry rank="23" score="500" name="SAM">
+    </entry>
+  </scores>
+</hiscore>

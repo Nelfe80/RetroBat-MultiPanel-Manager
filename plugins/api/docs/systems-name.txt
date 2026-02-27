@@ -1,0 +1,24 @@
+http://127.0.0.1:1234/systems/mame
+{
+    "name": "mame",
+    "fullname": "MAME",
+    "hardwareType": "arcade",
+    "manufacturer": "Arcade",
+    "theme": "mame",
+    "theme": "mame",
+    "extensions": [
+        ".7z",
+        ".zip"
+    ],
+    "visible": "true",
+    "collection": "false",
+    "gamesystem": "true",
+    "groupsystem": "false",
+    "totalGames": 3,
+    "visibleGames": 3,
+    "favoriteGames": 0,
+    "playedGames": 3,
+    "hiddenGames": 0,
+    "mostPlayedGame": "Street Fighter",
+    "logo": "/systems/mame/logo"
+}

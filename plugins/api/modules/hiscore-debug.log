@@ -1,0 +1,668 @@
+==================================================
+27/02/2026  9:49:11,07 - hiscore-update START
+RB_ROOT=C:\RetroBat\
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+==================================================
+27/02/2026 10:04:07,64 - START
+RB_ROOT=C:\RetroBat\
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+==================================================
+27/02/2026 10:21:03,67 - START
+RB_ROOT=C:\RetroBat\
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+==================================================
+27/02/2026 10:23:18,20 - START
+RB_ROOT=C:\RetroBat\
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+==================================================
+27/02/2026 10:34:15,13 - START
+OUTDIR=C:\RetroBat\plugins\api
+MODDIR=C:\RetroBat\plugins\api\modules
+RB_ROOT=C:\RetroBat\
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+==================================================
+27/02/2026 11:30:11,87 - START
+OUTDIR=C:\RetroBat\plugins\api
+MODDIR=C:\RetroBat\plugins\api\modules
+RB_ROOT=C:\RetroBat\
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+==================================================
+27/02/2026 11:36:38,86 - START
+OUTDIR=C:\RetroBat\plugins\api
+MODDIR=C:\RetroBat\plugins\api\modules
+RB_ROOT=C:\RetroBat\
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+==================================================
+27/02/2026 11:59:09,24 - START
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=
+ROMNAME=
+==================================================
+27/02/2026 12:03:36,98 - START
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+==================================================
+27/02/2026 12:13:54,56 - START
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+RB_ROOT=C:\RetroBat\
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+==================================================
+27/02/2026 13:14:17,97 - START
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+RB_ROOT=C:\RetroBat\
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+==================================================
+27/02/2026 13:33:36,67 - START (MIN)
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+==================================================
+27/02/2026 13:54:00,19 - START
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+RB_ROOT=C:\RetroBat\
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+==================================================
+27/02/2026 14:04:53,77 - START
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+RB_ROOT=C:\RetroBat\
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+==================================================
+27/02/2026 14:06:15,46 - START
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+RB_ROOT=C:\RetroBat\
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+LINE=    "path": "C:/RetroBat/roms/mame/sf.zip",
+ROMPATH=C:/RetroBat/roms/mame/sf.zip
+ROMNAME=sf
+==================================================
+27/02/2026 14:06:25,92 - START
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+RB_ROOT=C:\RetroBat\
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+==================================================
+27/02/2026 15:07:11,94 - START
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+RB_ROOT=C:\RetroBat\
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+==================================================
+27/02/2026 15:09:08,39 - START
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+RB_ROOT=C:\RetroBat\
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+==================================================
+27/02/2026 15:10:16,67 - START (MIN)
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+==================================================
+27/02/2026 15:48:48,52 - START (MIN+SAVES_MAME)
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+RB_ROOT=C:\RetroBat\
+HI2TXT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+==================================================
+27/02/2026 16:03:16,69 - START hiscore-update
+OUTDIR=C:\RetroBat\plugins\api
+RBDIR=C:\RetroBat
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HI2EXE=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+HI2HISCORE_DAT=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt_doc\example\hiscore.dat
+HI2DESCR=
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMNAME=qbert
+SAVE_TYPE=nvram
+SAVE_PATH=C:\RetroBat\saves\mame\nvram\qbert\nvram
+==================================================
+27/02/2026 17:42:09,89 - START (MIN)
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+==================================================
+27/02/2026 17:56:20,78 - START (MIN)
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+LINE=    "path": "C:/RetroBat/roms/mame/mslug.zip",
+ROMPATH=C:/RetroBat/roms/mame/mslug.zip
+ROMNAME=mslug
+==================================================
+27/02/2026 18:02:29,40 - START (MIN)
+OUTDIR=C:\RetroBat\plugins\api
+GAME=C:\RetroBat\plugins\api\current-game.txt
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+==================================================
+27/02/2026 18:20:03,31 - START (HISCORE)
+OUTDIR=C:\RetroBat\plugins\api
+ROOT=C:\RetroBat\plugins
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HITOOL=C:\RetroBat\plugins\plugins\api\tools\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\plugins\saves\mame\nvram
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+HSFILE=
+HSTYPE=
+INFO: No nvram/saveram/eeprom found for qbert
+==================================================
+27/02/2026 18:23:36,64 - START (HISCORE)
+OUTDIR=C:\RetroBat\plugins\api
+ROOT=C:\RetroBat
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+ERROR: hi2txt not found: C:\RetroBat\plugins\api\tools\hi2txt.exe
+==================================================
+27/02/2026 18:26:46,64 - START (HISCORE)
+OUTDIR=C:\RetroBat\plugins\api
+ROOT=C:\RetroBat
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+RUN: "C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe" -r "C:\RetroBat\saves\mame\nvram\qbert\nvram"
+hi2txt exitcode=0
+==================================================
+27/02/2026 18:27:57,83 - START (HISCORE)
+OUTDIR=C:\RetroBat\plugins\api
+ROOT=C:\RetroBat
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+LINE=    "path": "C:/RetroBat/roms/mame/mslug.zip",
+ROMPATH=C:/RetroBat/roms/mame/mslug.zip
+ROMNAME=mslug
+HSFILE=C:\RetroBat\saves\mame\nvram\mslug\saveram
+HSTYPE=saveram
+RUN: "C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe" -r "C:\RetroBat\saves\mame\nvram\mslug\saveram"
+hi2txt exitcode=0
+==================================================
+27/02/2026 18:28:57,31 - START (HISCORE)
+OUTDIR=C:\RetroBat\plugins\api
+ROOT=C:\RetroBat
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+LINE=    "path": "C:/RetroBat/roms/mame/sf.zip",
+ROMPATH=C:/RetroBat/roms/mame/sf.zip
+ROMNAME=sf
+HSFILE=
+HSTYPE=
+==================================================
+27/02/2026 18:46:35,83 - START (HISCORE)
+OUTDIR=C:\RetroBat\plugins\api
+ROOT=C:\RetroBat
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+RUN: "C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe" -r "C:\RetroBat\saves\mame\nvram\qbert\nvram"
+hi2txt exitcode=0
+==================================================
+27/02/2026 18:53:53,35 - START (HISCORE)
+OUTDIR=C:\RetroBat\plugins\api
+ROOT=C:\RetroBat
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMPATH_WIN=C:\RetroBat\roms\mame\qbert.zip
+ROMNAME=qbert
+ROMDIR=C:\RetroBat\roms\mame\
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+RUN: "C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe" -r "C:\RetroBat\saves\mame\nvram\qbert\nvram"
+hi2txt exitcode=0
+TOPSCORE=3000
+XML written: C:\RetroBat\plugins\api\hiscore\mame\qbert.xml
+==================================================
+27/02/2026 18:58:27,11 - START (HISCORE)
+OUTDIR=C:\RetroBat\plugins\api
+ROOT=C:\RetroBat
+GAME=C:\RetroBat\plugins\api\current-game.txt
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+LINE=    "path": "C:/RetroBat/roms/mame/qbert.zip",
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMPATH_WIN=C:\RetroBat\roms\mame\qbert.zip
+ROMNAME=qbert
+ROMDIR=C:\RetroBat\roms\mame\
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+RUN: "C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe" -r "C:\RetroBat\saves\mame\nvram\qbert\nvram"
+hi2txt exitcode=0
+TOPSCORE=3000
+==================================================
+27/02/2026 19:00:59,74 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMNAME=qbert
+SYSTEM=mame
+==================================================
+27/02/2026 19:03:41,01 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 19:05:54,65 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 19:08:42,40 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/mslug.zip
+ROMNAME=mslug
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\mslug\saveram
+HSTYPE=saveram
+==================================================
+27/02/2026 19:24:47,40 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 19:57:34,28 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 19:58:18,87 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 20:07:19,36 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 20:07:41,28 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/mslug.zip
+ROMNAME=mslug
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\mslug\saveram
+HSTYPE=saveram
+==================================================
+27/02/2026 21:25:20,56 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 21:25:37,53 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/mslug.zip
+ROMNAME=mslug
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\mslug\saveram
+HSTYPE=saveram
+==================================================
+27/02/2026 21:27:02,03 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 21:30:34,23 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/mslug.zip
+ROMNAME=mslug
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\mslug\saveram
+HSTYPE=saveram
+==================================================
+27/02/2026 21:32:13,51 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/mslug.zip
+ROMNAME=mslug
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\mslug\saveram
+HSTYPE=saveram
+==================================================
+27/02/2026 21:32:46,67 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/mslug.zip
+ROMNAME=mslug
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\mslug\saveram
+HSTYPE=saveram
+==================================================
+27/02/2026 21:42:23,70 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/mslug.zip
+ROMNAME=mslug
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\mslug\saveram
+HSTYPE=saveram
+==================================================
+27/02/2026 21:42:36,93 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 21:43:07,76 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 21:47:14,94 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 21:47:31,04 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 21:53:59,44 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 21:54:39,15 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 21:56:06,16 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 21:58:29,31 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 22:01:20,84 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 22:02:01,79 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 22:04:06,80 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 22:05:16,43 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 22:08:21,87 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 22:10:20,07 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 22:14:12,53 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 22:19:37,08 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 22:24:10,66 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 22:24:44,83 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 23:47:59,87 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram
+==================================================
+27/02/2026 23:48:29,04 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/sf.zip
+ROMNAME=sf
+SYSTEM=mame
+HSFILE=
+HSTYPE=
+==================================================
+28/02/2026  0:19:59,28 - START (HISCORE)
+ROOT=C:\RetroBat
+HITOOL=C:\RetroBat\plugins\api\tools\hi2txt\hi2txt.exe
+SAVES_NVRAM=C:\RetroBat\saves\mame\nvram
+ROMPATH=C:/RetroBat/roms/mame/qbert.zip
+ROMNAME=qbert
+SYSTEM=mame
+HSFILE=C:\RetroBat\saves\mame\nvram\qbert\nvram
+HSTYPE=nvram

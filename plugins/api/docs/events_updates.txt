@@ -1,0 +1,11 @@
+event=system-selected
+mame
+
+event=game-selected
+mame C:/RetroBat/roms/mame/sf.zip "Street Fighter"
+
+event=game-start
+C:\RetroBat\roms\mame\sf.zip sf "Street Fighter"
+
+event=game-end
+Commande ECHO d‚sactiv‚e.

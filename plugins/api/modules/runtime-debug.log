@@ -1,0 +1,273 @@
+==================================================
+27/02/2026 19:23:29,24 - START runtime-update
+SCRIPT=C:\RetroBat\plugins\api\tools\runtime-update.bat
+RB_ROOT=C:\RetroBat\\
+==================================================
+27/02/2026 19:23:29,29 - START runtime-update
+SCRIPT=C:\RetroBat\plugins\api\tools\runtime-update.bat
+RB_ROOT=C:\RetroBat\\
+==================================================
+27/02/2026 19:23:29,91 - START runtime-update
+SCRIPT=C:\RetroBat\plugins\api\tools\runtime-update.bat
+RB_ROOT=C:\RetroBat\\
+==================================================
+27/02/2026 21:56:05,69 - START runtime-update
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+ESCFG="C:\RetroBat\emulationstation\.emulationstation\es_settings.cfg"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+==================================================
+27/02/2026 21:58:29,04 - START runtime-update
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+ESCFG="C:\RetroBat\emulationstation\.emulationstation\es_settings.cfg"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+==================================================
+27/02/2026 22:01:20,84 - START runtime-update
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+ESCFG="C:\RetroBat\emulationstation\.emulationstation\es_settings.cfg"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] after header OK
+[STEP] read es_settings begin
+==================================================
+27/02/2026 22:02:01,23 - START runtime-update
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+ESCFG="C:\RetroBat\emulationstation\.emulationstation\es_settings.cfg"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] after header OK
+[STEP] read es_settings begin
+==================================================
+27/02/2026 22:04:06,38 - START runtime-update
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+ESCFG="C:\RetroBat\emulationstation\.emulationstation\es_settings.cfg"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] after header OK
+[STEP] read es_settings begin
+==================================================
+27/02/2026 22:05:06,16 - START runtime-update
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+ESCFG="C:\RetroBat\emulationstation\.emulationstation\es_settings.cfg"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] after header OK
+[STEP] read es_settings begin
+==================================================
+27/02/2026 22:05:16,11 - START runtime-update
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+ESCFG="C:\RetroBat\emulationstation\.emulationstation\es_settings.cfg"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] after header OK
+[STEP] read es_settings begin
+==================================================
+27/02/2026 22:08:21,48 - START runtime-update (NO ES)
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+==================================================
+27/02/2026 22:10:19,70 - START runtime-update (PS XML)
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] header OK
+==================================================
+27/02/2026 22:14:12,22 - START runtime-update (PURE BAT PIPE)
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] header OK
+[STEP] check gamelist exist begin
+[STEP] check gamelist exist OK
+[STEP] parse begin (type|findstr)
+[STEP] parse end
+parsed: EMU="" CORE=""
+[STEP] write begin
+[STEP] write end errorlevel=0
+27/02/2026 22:14:12,64 - FINISHED
+==================================================
+27/02/2026 22:19:36,88 - START runtime-update (GL + ES fallback)
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+ESCFG="C:\RetroBat\emulationstation\.emulationstation\es_settings.cfg"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] header OK
+[STEP] parse gamelist begin
+[STEP] parse gamelist end
+parsed(GL): EMU="" CORE=""
+[STEP] fallback ES begin
+==================================================
+27/02/2026 22:24:10,49 - START runtime-update (GL + ES fallback)
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+ESCFG="C:\RetroBat\emulationstation\.emulationstation\es_settings.cfg"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] header OK
+[STEP] parse gamelist begin
+[STEP] parse gamelist end
+parsed(GL): EMU="" CORE=""
+[STEP] fallback ES begin
+==================================================
+27/02/2026 22:24:44,80 - START runtime-update (PURE BAT PIPE)
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] header OK
+[STEP] check gamelist exist begin
+[STEP] check gamelist exist OK
+[STEP] parse begin (type|findstr)
+[STEP] parse end
+parsed: EMU="" CORE=""
+[STEP] write begin
+[STEP] write end errorlevel=0
+27/02/2026 22:24:45,15 - FINISHED
+==================================================
+27/02/2026 23:47:17,76 - START runtime-update (PURE BAT PIPE)
+SYS="mame" ROM="C:/RetroBat/roms/mame/mslug.zip" ROMFILE="mslug.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] header OK
+[STEP] check gamelist exist begin
+[STEP] check gamelist exist OK
+[STEP] parse begin (type|findstr)
+[STEP] parse end
+parsed: EMU="" CORE=""
+[STEP] write begin
+[STEP] write end errorlevel=0
+27/02/2026 23:47:18,03 - FINISHED
+==================================================
+27/02/2026 23:47:19,21 - START runtime-update (PURE BAT PIPE)
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] header OK
+[STEP] check gamelist exist begin
+[STEP] check gamelist exist OK
+[STEP] parse begin (type|findstr)
+[STEP] parse end
+parsed: EMU="" CORE=""
+[STEP] write begin
+[STEP] write end errorlevel=0
+27/02/2026 23:47:19,46 - FINISHED
+==================================================
+27/02/2026 23:47:59,56 - START runtime-update (PURE BAT PIPE)
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] header OK
+[STEP] check gamelist exist begin
+[STEP] check gamelist exist OK
+[STEP] parse begin (type|findstr)
+[STEP] parse end
+parsed: EMU="" CORE=""
+[STEP] write begin
+[STEP] write end errorlevel=0
+27/02/2026 23:47:59,85 - FINISHED
+==================================================
+27/02/2026 23:48:03,52 - START runtime-update (PURE BAT PIPE)
+SYS="mame" ROM="C:/RetroBat/roms/mame/sfan.zip" ROMFILE="sfan.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] header OK
+[STEP] check gamelist exist begin
+[STEP] check gamelist exist OK
+[STEP] parse begin (type|findstr)
+[STEP] parse end
+parsed: EMU="" CORE=""
+[STEP] write begin
+[STEP] write end errorlevel=0
+27/02/2026 23:48:03,75 - FINISHED
+==================================================
+27/02/2026 23:48:04,24 - START runtime-update (PURE BAT PIPE)
+SYS="mame" ROM="C:/RetroBat/roms/mame/sf.zip" ROMFILE="sf.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] header OK
+[STEP] check gamelist exist begin
+[STEP] check gamelist exist OK
+[STEP] parse begin (type|findstr)
+[STEP] parse end
+parsed: EMU="" CORE=""
+[STEP] write begin
+[STEP] write end errorlevel=0
+27/02/2026 23:48:04,46 - FINISHED
+==================================================
+27/02/2026 23:48:28,68 - START runtime-update (PURE BAT PIPE)
+SYS="mame" ROM="C:/RetroBat/roms/mame/sf.zip" ROMFILE="sf.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] header OK
+[STEP] check gamelist exist begin
+[STEP] check gamelist exist OK
+[STEP] parse begin (type|findstr)
+[STEP] parse end
+parsed: EMU="" CORE=""
+[STEP] write begin
+[STEP] write end errorlevel=0
+27/02/2026 23:48:29,20 - FINISHED
+==================================================
+27/02/2026 23:52:11,62 - START runtime-update (PURE BAT PIPE)
+SYS="mame" ROM="C:/RetroBat/roms/mame/sf.zip" ROMFILE="sf.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] header OK
+[STEP] check gamelist exist begin
+[STEP] check gamelist exist OK
+[STEP] parse begin (type|findstr)
+[STEP] parse end
+parsed: EMU="" CORE=""
+[STEP] write begin
+[STEP] write end errorlevel=0
+27/02/2026 23:52:11,86 - FINISHED
+==================================================
+27/02/2026 23:52:12,81 - START runtime-update (PURE BAT PIPE)
+SYS="mame" ROM="C:/RetroBat/roms/mame/qbert.zip" ROMFILE="qbert.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] header OK
+[STEP] check gamelist exist begin
+[STEP] check gamelist exist OK
+[STEP] parse begin (type|findstr)
+[STEP] parse end
+parsed: EMU="" CORE=""
+[STEP] write begin
+[STEP] write end errorlevel=0
+27/02/2026 23:52:12,99 - FINISHED
+==================================================
+27/02/2026 23:52:33,92 - START runtime-update (PURE BAT PIPE)
+SYS="mame" ROM="C:/RetroBat/roms/mame/mslug.zip" ROMFILE="mslug.zip"
+RB_ROOT="C:\RetroBat\"
+GAMELIST="C:\RetroBat\roms\mame\gamelist.xml"
+RUNTIME="C:\RetroBat\plugins\api\modules\runtime.json"
+[STEP] header OK
+[STEP] check gamelist exist begin
+[STEP] check gamelist exist OK
+[STEP] parse begin (type|findstr)
+[STEP] parse end
+parsed: EMU="" CORE=""
+[STEP] write begin
+[STEP] write end errorlevel=0
+27/02/2026 23:52:34,17 - FINISHED

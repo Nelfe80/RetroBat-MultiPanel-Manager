@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hiscore system="mame" rom="mslug" updatedAt="27/02/2026 21:42:24,43">
+  <columns>
+    <col index="1">RANK</col>
+    <col index="2">SCORE</col>
+    <col index="3">NAME</col>
+  </columns>
+  <scores>
+    <entry rank="1" score="107400" name="APE">
+    </entry>
+    <entry rank="2" score="98410" name="BAT">
+    </entry>
+    <entry rank="3" score="89300" name="CAT">
+    </entry>
+    <entry rank="4" score="76300" name="DOG">
+    </entry>
+    <entry rank="5" score="60740" name="EEL">
+    </entry>
+    <entry rank="6" score="59630" name="NAZ">
+    </entry>
+    <entry rank="7" score="49640" name="CAC">
+    </entry>
+    <entry rank="8" score="33960" name="ORP">
+    </entry>
+    <entry rank="9" score="29430" name="ORA">
+    </entry>
+    <entry rank="10" score="18400" name="ABE">
+    </entry>
+  </scores>
+</hiscore>

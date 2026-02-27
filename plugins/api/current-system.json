@@ -1,0 +1,23 @@
+{
+    "name": "mame",
+    "fullname": "MAME",
+    "hardwareType": "arcade",
+    "manufacturer": "Arcade",
+    "theme": "mame",
+    "theme": "mame",
+    "extensions": [
+        ".7z",
+        ".zip"
+    ],
+    "visible": "true",
+    "collection": "false",
+    "gamesystem": "true",
+    "groupsystem": "false",
+    "totalGames": 5,
+    "visibleGames": 5,
+    "favoriteGames": 0,
+    "playedGames": 5,
+    "hiddenGames": 0,
+    "mostPlayedGame": "Street Fighter",
+    "logo": "/systems/mame/logo"
+}
