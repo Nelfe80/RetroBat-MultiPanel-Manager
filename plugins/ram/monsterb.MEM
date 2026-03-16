@@ -1,0 +1,18 @@
+return {
+  rom = "monsterb",
+events = {
+    ["score"] = {
+      { address=0xC906, type="u24be", condition="change", min=10, max=100, desc="", is_score=true },
+      { address=0xC906, type="u24be", condition="change", min=110, max=300, desc="", is_score=true },
+      { address=0xC906, type="u24be", condition="change", min=310, max=500, desc="", is_score=true },
+      { address=0xC906, type="u24be", condition="change", min=510, max=1000, desc="", is_score=true },
+      { address=0xC906, type="u24be", condition="change", min=1100, max=10000, desc="", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xC80B, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xE382, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

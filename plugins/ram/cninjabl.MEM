@@ -1,0 +1,9 @@
+return {
+  rom = "cninjabl",
+  events = {
+    ["player1_die"] = {
+      { address=0x184D99, type="u8", condition="decrease", desc="lives" },
+      { address=0x184E4D, type="u8", condition="decrease", desc="energy" },
+    },
+  }
+}

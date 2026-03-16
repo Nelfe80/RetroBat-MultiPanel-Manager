@@ -1,0 +1,22 @@
+return {
+  rom = "defender",
+events = {
+    ["score"] = {
+      { address=0xA1C3, type="u24be", condition="change", min=25, max=25, desc="GUN DIE", is_score=true },
+      { address=0xA1C3, type="u24be", condition="change", min=150, max=150, desc="marcianito (little person from mars)", is_score=true },
+      { address=0xA1C3, type="u24be", condition="change", min=200, max=200, desc="mistery ship", is_score=true },
+      { address=0xA1C3, type="u24be", condition="change", min=250, max=250, desc="ANOTHER marcianito (little person from mars)", is_score=true },
+      { address=0xA1C3, type="u24be", condition="change", min=500, max=500, desc="ANOTHER MORE marcianito (one more little person from mars)", is_score=true },
+      { address=0xA1C3, type="u24be", condition="change", min=1000, max=1000, desc="flopper point (un algo parecidico a un asterisco, maño.)", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xA037, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xA1C9, type="u8", condition="decrease", desc="lives" },
+    },
+    ["bomb"] = {
+      { address=0xA1CB, type="u8", condition="decrease", desc="smart bombs" },
+    },
+  }
+}

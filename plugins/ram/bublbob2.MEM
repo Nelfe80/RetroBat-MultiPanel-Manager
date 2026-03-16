@@ -1,0 +1,19 @@
+return {
+  rom = "bublbob2",
+events = {
+    ["score"] = {
+      { address=0x408230, type="u32be", condition="change", min=10, max=50, desc="Score 10", is_score=true },
+      { address=0x408230, type="u32be", condition="change", min=60, max=100, desc="Score 60", is_score=true },
+      { address=0x408230, type="u32be", condition="change", min=150, max=350, desc="Score 150", is_score=true },
+      { address=0x408230, type="u32be", condition="change", min=400, max=600, desc="Score 400", is_score=true },
+      { address=0x408230, type="u32be", condition="change", min=650, max=850, desc="Score 650", is_score=true },
+      { address=0x408230, type="u32be", condition="change", min=900, max=1000, desc="Score 900", is_score=true },
+      { address=0x408230, type="u32be", condition="change", min=2000, max=4000, desc="Score 2000", is_score=true },
+      { address=0x408230, type="u32be", condition="change", min=5000, max=8000, desc="Score 5000", is_score=true },
+      { address=0x408230, type="u32be", condition="change", min=9000, max=10000, desc="Score 9000", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0x408272, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

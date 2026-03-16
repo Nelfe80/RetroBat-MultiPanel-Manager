@@ -1,0 +1,14 @@
+return {
+  rom = "searthin",
+events = {
+    ["score"] = {
+      { address=0x20F8, type="u16be", condition="change", min=100, max=100, desc="Ship Scores", is_score=true },
+      { address=0x20F8, type="u16be", condition="change", min=200, max=200, desc="Score 200", is_score=true },
+      { address=0x20F8, type="u16be", condition="change", min=300, max=300, desc="Score 300", is_score=true },
+      { address=0x20F8, type="u16be", condition="change", min=400, max=100, desc="Mystery", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0x21FF, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

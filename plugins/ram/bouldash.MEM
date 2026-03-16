@@ -1,0 +1,14 @@
+return {
+  rom = "bouldash",
+events = {
+    ["score"] = {
+      { address=0x306AA4, type="u32be", condition="change", min=10, max=10, desc="Grass", is_score=true },
+      { address=0x306AA4, type="u32be", condition="change", min=150, max=150, desc="Blue Gems", is_score=true },
+      { address=0x306AA4, type="u32be", condition="change", min=300, max=300, desc="Bug", is_score=true },
+      { address=0x306AA4, type="u32be", condition="change", min=1000, max=1000, desc="Gems rock", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x306113, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

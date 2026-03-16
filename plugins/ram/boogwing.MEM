@@ -1,0 +1,36 @@
+return {
+  rom = "boogwing",
+events = {
+    ["score"] = {
+      { address=0x2080CA, type="u32be", condition="change", min=10, max=90, desc="Pilots", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=100, max=100, desc="Planes", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=200, max=200, desc="streetlight", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=300, max=300, desc="Score 300", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=400, max=400, desc="Score 400", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=500, max=500, desc="Score 500", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=600, max=600, desc="Score 600", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=700, max=700, desc="Score 700", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=800, max=800, desc="Score 800", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=900, max=900, desc="Score 900", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=1000, max=1000, desc="Score 1000", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=2000, max=2000, desc="Score 2000", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=3000, max=3000, desc="Score 3000", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=5000, max=5000, desc="Score 5000", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=7000, max=7000, desc="Score 7000", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=8000, max=8000, desc="Score 8000", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=9000, max=9000, desc="Score 9000", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=10000, max=10000, desc="Flying ship", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=10001, max=20000, desc="Score 10001", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=20010, max=30000, desc="Score 20010", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=30010, max=50000, desc="Score 30010", is_score=true },
+      { address=0x2080CA, type="u32be", condition="change", min=50010, max=100000, desc="Score 50010", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x20804E, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x2080C8, type="u8", condition="decrease", desc="lives" },
+      { address=0x208247, type="u8", condition="decrease", desc="select shot power" },
+    },
+  }
+}

@@ -1,0 +1,8 @@
+return {
+  rom = "terrafu",
+  events = {
+    ["player1_die"] = {
+      { address=0x606BE, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

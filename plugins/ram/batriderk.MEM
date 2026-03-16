@@ -1,0 +1,12 @@
+return {
+  rom = "batriderk",
+  events = {
+    ["bomb"] = {
+      { address=0x204174, type="u16be", condition="decrease", desc="bombs" },
+    },
+    ["player1_die"] = {
+      { address=0x204172, type="u8", condition="decrease", desc="front fire power" },
+      { address=0x204166, type="u8", condition="decrease", desc="option fire power" },
+    },
+  }
+}

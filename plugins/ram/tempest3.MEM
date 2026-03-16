@@ -1,0 +1,11 @@
+return {
+  rom = "tempest3",
+  events = {
+    ["coin"] = {
+      { address=0x0006, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x0048, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

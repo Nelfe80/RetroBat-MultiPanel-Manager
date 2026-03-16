@@ -1,0 +1,26 @@
+return {
+  rom = "arknoid2",
+events = {
+    ["score"] = {
+      { address=0xE3A0, type="u24be", condition="change", min=50, max=50, desc="White brick", is_score=true },
+      { address=0xE3A0, type="u24be", condition="change", min=60, max=60, desc="Orange brick", is_score=true },
+      { address=0xE3A0, type="u24be", condition="change", min=70, max=70, desc="Cyan brick/black capsule(2x)", is_score=true },
+      { address=0xE3A0, type="u24be", condition="change", min=140, max=140, desc="Score 140", is_score=true },
+      { address=0xE3A0, type="u24be", condition="change", min=80, max=80, desc="Green brick/black capsule(2x)", is_score=true },
+      { address=0xE3A0, type="u24be", condition="change", min=160, max=160, desc="Score 160", is_score=true },
+      { address=0xE3A0, type="u24be", condition="change", min=90, max=90, desc="Red brick/black capsule(2x)", is_score=true },
+      { address=0xE3A0, type="u24be", condition="change", min=180, max=180, desc="Score 180", is_score=true },
+      { address=0xE3A0, type="u24be", condition="change", min=100, max=100, desc="Blue brick/black capsule(2x)", is_score=true },
+      { address=0xE3A0, type="u24be", condition="change", min=200, max=200, desc="Score 200", is_score=true },
+      { address=0xE3A0, type="u24be", condition="change", min=110, max=110, desc="Magenta brick/black capsule(2x)", is_score=true },
+      { address=0xE3A0, type="u24be", condition="change", min=220, max=220, desc="Score 220", is_score=true },
+      { address=0xE3A0, type="u24be", condition="change", min=120, max=120, desc="Yellow brick/black capsule(2x)", is_score=true },
+      { address=0xE3A0, type="u24be", condition="change", min=240, max=240, desc="Score 240", is_score=true },
+      { address=0xE3A0, type="u24be", condition="change", min=10000, max=10000, desc="Pink capsule", is_score=true },
+      { address=0xE3A0, type="u24be", condition="change", min=20000, max=20000, desc="Extra live at 20000", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0xE00C, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

@@ -1,0 +1,16 @@
+return {
+  rom = "digdug",
+events = {
+    ["score"] = {
+      { address=0x8414, type="u24be", condition="change", min=10, max=10, desc="SIngle segment", is_score=true },
+      { address=0x8414, type="u24be", condition="change", min=200, max=500, desc="Pooka, 200 - 500 but need to avoid overap of score", is_score=true },
+      { address=0x8414, type="u24be", condition="change", min=501, max=1000, desc="Fygar - again avoid score overlap - includes Carrot at 400 and Onion at 600 and Cucumber at 1000", is_score=true },
+      { address=0x8414, type="u24be", condition="change", min=2000, max=2000, desc="Fygar - again avoid score overlap - includes Carrot at 400 and Onion at 600 and Cucumber at 1000 Aubergine", is_score=true },
+      { address=0x8414, type="u24be", condition="change", min=3000, max=3000, desc="Cloverleaf", is_score=true },
+      { address=0x8414, type="u24be", condition="change", min=4000, max=4000, desc="Tomato or 3 monsters with one rock", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0x840A, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

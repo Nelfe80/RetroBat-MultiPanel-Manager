@@ -1,0 +1,15 @@
+return {
+  rom = "dday",
+events = {
+    ["score"] = {
+      { address=0x6234, type="u24be", condition="change", min=50, max=50, desc="", is_score=true },
+      { address=0x6234, type="u24be", condition="change", min=80, max=80, desc="", is_score=true },
+      { address=0x6234, type="u24be", condition="change", min=100, max=100, desc="", is_score=true },
+      { address=0x6234, type="u24be", condition="change", min=800, max=800, desc="", is_score=true },
+      { address=0x6234, type="u24be", condition="change", min=1000, max=10000, desc="", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0x6015, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

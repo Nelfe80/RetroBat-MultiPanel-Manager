@@ -1,0 +1,14 @@
+return {
+  rom = "bloodbroj",
+  events = {
+    ["coin"] = {
+      { address=0x8002D, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x8086C, type="u8", condition="decrease", desc="lives" },
+    },
+    ["bomb"] = {
+      { address=0x8086D, type="u8", condition="decrease", desc="bombs" },
+    },
+  }
+}

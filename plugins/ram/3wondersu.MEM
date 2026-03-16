@@ -1,0 +1,24 @@
+return {
+  rom = "3wondersu",
+  events = {
+    ["coin"] = {
+      { address=0xFF0D59, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFF0DE7, type="u8", condition="decrease", desc="lives" },
+      { address=0xFF0E17, type="u8", condition="decrease", desc="one heart = life" },
+      { address=0xFF0E19, type="u8", condition="decrease", desc="one heart = life" },
+      { address=0xFF0DE4, type="u8", condition="decrease", desc="select option power" },
+      { address=0xFF184D, type="u8", condition="decrease", desc="one heart = life" },
+      { address=0xFF184C, type="u8", condition="decrease", desc="one heart = life" },
+      { address=0xFF1845, type="u8", condition="decrease", desc="fire power (wide)" },
+      { address=0xFF1847, type="u8", condition="decrease", desc="fire power (rapid)" },
+      { address=0xFF0EBC, type="u8", condition="decrease", desc="one fruit = life" },
+      { address=0xFF0EBE, type="u8", condition="decrease", desc="one fruit = life" },
+    },
+    ["bomb"] = {
+      { address=0xFF0E36, type="u8", condition="decrease", desc="ammo (super bomb)" },
+      { address=0xFF1842, type="u8", condition="decrease", desc="bomb power" },
+    },
+  }
+}

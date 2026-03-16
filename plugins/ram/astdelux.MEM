@@ -1,0 +1,14 @@
+return {
+  rom = "astdelux",
+events = {
+    ["score"] = {
+      { address=0x62, type="u24be", condition="change", min=10, max=1000, desc="", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x008C, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x006F, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

@@ -1,0 +1,18 @@
+return {
+  rom = "twincobr",
+events = {
+    ["score"] = {
+      { address=0x3184C, type="u32be", condition="change", min=50, max=200, desc="Shoot something", is_score=true },
+      { address=0x3184C, type="u32be", condition="change", min=210, max=2000, desc="Score 210", is_score=true },
+      { address=0x3184C, type="u32be", condition="change", min=2000, max=2000, desc="Weapons bonus", is_score=true },
+      { address=0x3184C, type="u32be", condition="change", min=2100, max=5000, desc="Score 2100", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0x31871, type="u8", condition="decrease", desc="lives" },
+      { address=0x3004B, type="u8", condition="decrease", desc="max fire power" },
+    },
+    ["bomb"] = {
+      { address=0x3004D, type="u8", condition="decrease", desc="bombs" },
+    },
+  }
+}

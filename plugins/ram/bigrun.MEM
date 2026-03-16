@@ -1,0 +1,8 @@
+return {
+  rom = "bigrun",
+events = {
+    ["coin"] = {
+      { address=0xF000D, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

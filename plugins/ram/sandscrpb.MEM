@@ -1,0 +1,15 @@
+return {
+  rom = "sandscrpb",
+  events = {
+    ["coin"] = {
+      { address=0x700001, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x706027, type="u8", condition="decrease", desc="lives" },
+      { address=0x70603F, type="u8", condition="decrease", desc="weapon power" },
+    },
+    ["bomb"] = {
+      { address=0x706026, type="u8", condition="decrease", desc="bombs" },
+    },
+  }
+}

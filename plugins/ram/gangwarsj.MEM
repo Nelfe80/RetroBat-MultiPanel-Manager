@@ -1,0 +1,9 @@
+return {
+  rom = "gangwarsj",
+  events = {
+    ["player1_die"] = {
+      { address=0x43408, type="u8", condition="decrease", desc="lives" },
+      { address=0x4062A, type="u8", condition="decrease", desc="energy" },
+    },
+  }
+}

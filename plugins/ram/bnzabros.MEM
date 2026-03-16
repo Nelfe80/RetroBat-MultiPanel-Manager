@@ -1,0 +1,28 @@
+return {
+  rom = "bnzabros",
+events = {
+    ["score"] = {
+      { address=0xF005A4, type="u24be", condition="change", min=200, max=200, desc="Blue guard, red waiter", is_score=true },
+      { address=0xF005A4, type="u24be", condition="change", min=300, max=300, desc="Green guard", is_score=true },
+      { address=0xF005A4, type="u24be", condition="change", min=400, max=400, desc="Hit door Violet guard,dog, cyan guard", is_score=true },
+      { address=0xF005A4, type="u24be", condition="change", min=500, max=500, desc="Grey armored guard", is_score=true },
+      { address=0xF005A4, type="u24be", condition="change", min=800, max=800, desc="door hit green guard, violet hit guard", is_score=true },
+      { address=0xF005A4, type="u24be", condition="change", min=1000, max=1000, desc="door hit red guard, cash bag", is_score=true },
+      { address=0xF005A4, type="u24be", condition="change", min=1200, max=1200, desc="door hit cyan guard", is_score=true },
+      { address=0xF005A4, type="u24be", condition="change", min=1500, max=1500, desc="Door hit guard", is_score=true },
+      { address=0xF005A4, type="u24be", condition="change", min=2000, max=2000, desc="Smash grey armored guard, gold bonus", is_score=true },
+      { address=0xF005A4, type="u24be", condition="change", min=2500, max=2500, desc="Score 2500", is_score=true },
+      { address=0xF005A4, type="u24be", condition="change", min=3000, max=3000, desc="Bonus treasure coffin", is_score=true },
+      { address=0xF005A4, type="u24be", condition="change", min=4000, max=4000, desc="Smash grey armored guard", is_score=true },
+      { address=0xF005A4, type="u24be", condition="change", min=5000, max=5000, desc="Treasure loot", is_score=true },
+      { address=0xF005A4, type="u24be", condition="change", min=100, max=100, desc="Bonus, gold waiter", is_score=true },
+      { address=0xF005A4, type="u24be", condition="change", min=10000, max=10000, desc="Bonus stage perfect", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xFF8428, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xF0059A, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

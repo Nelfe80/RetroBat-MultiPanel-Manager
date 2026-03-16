@@ -1,0 +1,31 @@
+return {
+  rom = "3wonders",
+events = {
+    ["score"] = {
+      { address=0xFF0DD2, type="u24be", condition="change", min=100, max=100, desc="Kill simple enemy", is_score=true },
+      { address=0xFF0DD2, type="u24be", condition="change", min=200, max=200, desc="Kill medium enemy or destroy house", is_score=true },
+      { address=0xFF0DD2, type="u24be", condition="change", min=300, max=300, desc="Kill medium enemy 2", is_score=true },
+      { address=0xFF0DD2, type="u24be", condition="change", min=1000, max=1000, desc="Kill giant enemy or prize", is_score=true },
+      { address=0xFF0DD2, type="u24be", condition="change", min=5000, max=50000, desc="Stage Clear", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xFF0D59, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFF0DE7, type="u8", condition="decrease", desc="lives" },
+      { address=0xFF0E17, type="u8", condition="decrease", desc="one heart = life" },
+      { address=0xFF0E19, type="u8", condition="decrease", desc="one heart = life" },
+      { address=0xFF0DE4, type="u8", condition="decrease", desc="select option power" },
+      { address=0xFF184D, type="u8", condition="decrease", desc="one heart = life" },
+      { address=0xFF184C, type="u8", condition="decrease", desc="one heart = life" },
+      { address=0xFF1845, type="u8", condition="decrease", desc="fire power (wide)" },
+      { address=0xFF1847, type="u8", condition="decrease", desc="fire power (rapid)" },
+      { address=0xFF0EBC, type="u8", condition="decrease", desc="one fruit = life" },
+      { address=0xFF0EBE, type="u8", condition="decrease", desc="one fruit = life" },
+    },
+    ["bomb"] = {
+      { address=0xFF0E36, type="u8", condition="decrease", desc="ammo (super bomb)" },
+      { address=0xFF1842, type="u8", condition="decrease", desc="bomb power" },
+    },
+  }
+}

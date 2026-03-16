@@ -1,0 +1,21 @@
+return {
+  rom = "cninja",
+events = {
+    ["score"] = {
+      { address=0x184DA2, type="u32be", condition="change", min=300, max=300, desc="Standard caveman,meat", is_score=true },
+      { address=0x184DA2, type="u32be", condition="change", min=100, max=100, desc="Fruit,rocks", is_score=true },
+      { address=0x184DA2, type="u32be", condition="change", min=500, max=500, desc="Ptelodactile, carrot, trex", is_score=true },
+      { address=0x184DA2, type="u32be", condition="change", min=600, max=600, desc="Sharks", is_score=true },
+      { address=0x184DA2, type="u32be", condition="change", min=1000, max=1000, desc="Hot sauce,new weapon", is_score=true },
+      { address=0x184DA2, type="u32be", condition="change", min=700, max=700, desc="Flying caveman,ptelodactyle pink", is_score=true },
+      { address=0x184DA2, type="u32be", condition="change", min=10000, max=10000, desc="Bosses", is_score=true },
+      { address=0x184DA2, type="u32be", condition="change", min=20000, max=20000, desc="Score 20000", is_score=true },
+      { address=0x184DA2, type="u32be", condition="change", min=100000, max=100000, desc="Final Green monster", is_score=true },
+      { address=0x184DA2, type="u32be", condition="change", min=30000, max=30000, desc="End Stage", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0x184D99, type="u8", condition="decrease", desc="lives" },
+      { address=0x184E4D, type="u8", condition="decrease", desc="energy" },
+    },
+  }
+}

@@ -1,0 +1,26 @@
+return {
+  rom = "captaven",
+events = {
+    ["score"] = {
+      { address=0x126B1C, type="u24be", condition="change", min=100, max=100, desc="cola can,hit boss,stuff", is_score=true },
+      { address=0x126B1C, type="u24be", condition="change", min=200, max=200, desc="Grey enemy, barrel", is_score=true },
+      { address=0x126B1C, type="u24be", condition="change", min=400, max=400, desc="Cola machine,shielded violet enemy,Cyan machinegun enemy", is_score=true },
+      { address=0x126B1C, type="u24be", condition="change", min=500, max=500, desc="orange enemy", is_score=true },
+      { address=0x126B1C, type="u24be", condition="change", min=600, max=600, desc="Bug enemy,submariner", is_score=true },
+      { address=0x126B1C, type="u24be", condition="change", min=800, max=800, desc="Cyan enemy", is_score=true },
+      { address=0x126B1C, type="u24be", condition="change", min=1000, max=1000, desc="Brown enemy,orange flying enemy", is_score=true },
+      { address=0x126B1C, type="u24be", condition="change", min=1001, max=1001, desc="Signal Wasp", is_score=true },
+      { address=0x126B1C, type="u24be", condition="change", min=1500, max=1500, desc="Grey flying enemy", is_score=true },
+      { address=0x126B1C, type="u24be", condition="change", min=2000, max=2000, desc="Machinegun cyan enemy", is_score=true },
+      { address=0x126B1C, type="u24be", condition="change", min=2500, max=2500, desc="Flying machine enemy", is_score=true },
+      { address=0x126B1C, type="u24be", condition="change", min=3000, max=3000, desc="Grey enemy", is_score=true },
+      { address=0x126B1C, type="u24be", condition="change", min=5000, max=70000, desc="Bosses", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x1278D8, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x120008, type="u16be", condition="decrease", desc="energy" },
+    },
+  }
+}

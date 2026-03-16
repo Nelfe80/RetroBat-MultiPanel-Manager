@@ -1,0 +1,13 @@
+return {
+  rom = "sathena",
+  events = {
+    ["coin"] = {
+      { address=0xD7F1, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFD2F, type="u8", condition="decrease", desc="lives" },
+      { address=0xFD17, type="u8", condition="decrease", desc="energy" },
+      { address=0xFD37, type="u8", condition="decrease", desc="energy" },
+    },
+  }
+}

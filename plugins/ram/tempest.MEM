@@ -1,0 +1,20 @@
+return {
+  rom = "tempest",
+events = {
+    ["score"] = {
+      { address=0x40, type="u24be", condition="change", min=1, max=5, desc="Spike", is_score=true },
+      { address=0x40, type="u24be", condition="change", min=50, max=50, desc="Spider", is_score=true },
+      { address=0x40, type="u24be", condition="change", min=100, max=100, desc="Tanker", is_score=true },
+      { address=0x40, type="u24be", condition="change", min=150, max=150, desc="Flipper", is_score=true },
+      { address=0x40, type="u24be", condition="change", min=200, max=200, desc="Pulsar", is_score=true },
+      { address=0x40, type="u24be", condition="change", min=2500, max=1000, desc="Fuseball", is_score=true },
+      { address=0x40, type="u24be", condition="change", min=6000, max=1000000, desc="Start level bonus achieved", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x0006, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x0048, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

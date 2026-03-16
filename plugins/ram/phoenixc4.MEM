@@ -1,0 +1,11 @@
+return {
+  rom = "phoenixc4",
+  events = {
+    ["coin"] = {
+      { address=0x438F, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x4390, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

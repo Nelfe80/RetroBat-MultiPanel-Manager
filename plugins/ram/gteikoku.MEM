@@ -1,0 +1,8 @@
+return {
+  rom = "gteikoku",
+  events = {
+    ["coin"] = {
+      { address=0x4002, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

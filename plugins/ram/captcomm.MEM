@@ -1,0 +1,36 @@
+return {
+  rom = "captcomm",
+events = {
+    ["score"] = {
+      { address=0xFFAA74, type="u32be", condition="change", min=10, max=60, desc="Hits", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=80, max=80, desc="Wooky (yellow,green)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=100, max=100, desc="Eddy,Dick,Kojiro (violet,Red)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=120, max=140, desc="Samson,hanzo (grey/blue)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=170, max=170, desc="Organo (orange)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=140, max=140, desc="Marbin (orange/cyan)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=150, max=150, desc="Sasuke (green)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=270, max=270, desc="Skip (blue/yellow/red)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=300, max=300, desc="Gifts", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=320, max=340, desc="Sonnie (Red/green)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=320, max=340, desc="Billboard (magenta/green)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=700, max=720, desc="Brenda/Carol ( Magenta)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=800, max=800, desc="Z ( White/Cyan/Silver)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=1000, max=1000, desc="Mardia/ Musashi (Orange)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=2000, max=2000, desc="Bosses Dolg (cyan/orange)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=3000, max=3000, desc="Shtrom Jr ( green/yellow)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=4000, max=4000, desc="Yamato ( magenta/yellow)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=5000, max=5000, desc="Monster ( Green/Cyan)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=6000, max=6000, desc="Dr T.W.(White/Orange)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=7000, max=7000, desc="Blood ( Green/Orange)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=8000, max=8000, desc="Doppel ( Green/Yellow)", is_score=true },
+      { address=0xFFAA74, type="u32be", condition="change", min=15000, max=15000, desc="Scumocide ( Orange/Cyan)", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xFFA850, type="u32be", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFFAA7C, type="u8", condition="decrease", desc="lives" },
+      { address=0xFFA9D1, type="u8", condition="decrease", desc="energy" },
+    },
+  }
+}

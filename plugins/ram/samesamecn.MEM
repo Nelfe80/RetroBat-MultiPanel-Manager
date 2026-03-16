@@ -1,0 +1,13 @@
+return {
+  rom = "samesamecn",
+  events = {
+    ["player1_die"] = {
+      { address=0xC1EA7, type="u8", condition="decrease", desc="lives" },
+      { address=0xC1EBD, type="u8", condition="decrease", desc="fire power" },
+      { address=0xC16E7, type="u8", condition="decrease", desc="fire power" },
+    },
+    ["bomb"] = {
+      { address=0xC16E9, type="u8", condition="decrease", desc="bombs" },
+    },
+  }
+}

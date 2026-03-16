@@ -1,0 +1,8 @@
+return {
+  rom = "kyrosj",
+  events = {
+    ["coin"] = {
+      { address=0x2000F, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

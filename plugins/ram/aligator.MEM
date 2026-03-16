@@ -1,0 +1,15 @@
+return {
+  rom = "aligator",
+events = {
+    ["score"] = {
+      { address=0xFE1C6E, type="u56be", condition="change", min=100, max=100, desc="", is_score=true },
+      { address=0xFE1C6E, type="u56be", condition="change", min=200, max=300, desc="", is_score=true },
+      { address=0xFE1C6E, type="u56be", condition="change", min=400, max=600, desc="", is_score=true },
+      { address=0xFE1C6E, type="u56be", condition="change", min=700, max=2000, desc="", is_score=true },
+      { address=0xFE1C6E, type="u56be", condition="change", min=2000, max=10000, desc="", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0xFE8027, type="u8", condition="decrease", desc="energy" },
+    },
+  }
+}

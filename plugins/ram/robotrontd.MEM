@@ -1,0 +1,8 @@
+return {
+  rom = "robotrontd",
+  events = {
+    ["player1_die"] = {
+      { address=0xBDEC, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

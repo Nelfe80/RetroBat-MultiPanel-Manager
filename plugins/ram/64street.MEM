@@ -1,0 +1,39 @@
+return {
+  rom = "64street",
+events = {
+    ["score"] = {
+      { address=0xFF8F42, type="u32be", condition="change", min=250, max=250, desc="Orange Enemy", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=750, max=750, desc="Violet,yellow Enemy", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=500, max=500, desc="Gray Enemy", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=900, max=900, desc="Green Enemy", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=600, max=600, desc="Pink Enemy", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=1250, max=1250, desc="Boxer Enemy blue, ninja enemy", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=1400, max=1400, desc="Boxer Enemy orange", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=1500, max=1500, desc="Sunglases white violet Enemy", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=1900, max=1900, desc="Chulo Enemy", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=2000, max=2000, desc="Fat bold Enemy, Giant blonde enemy", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=2250, max=2250, desc="Score 2250", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=4000, max=4000, desc="claw Enemy", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=2500, max=2500, desc="Gian Yellow enemy", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=5000, max=5000, desc="claws pink Enemy, Ninja enemy blue", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=15000, max=15000, desc="FINAL BOSSES Giant Pink Hammer Boss", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=20000, max=20000, desc="Score 20000", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=25000, max=25000, desc="Fat Twin Bosses", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=30000, max=30000, desc="Robotronic Boss", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=35000, max=35000, desc="Samurai orange Boss,Robotronic blue Boss", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=54600, max=54600, desc="Final Boss", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=1000, max=1000, desc="Gifts", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=3000, max=3000, desc="Score 3000", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=5000, max=5000, desc="Score 5000", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=10000, max=10000, desc="Score 10000", is_score=true },
+      { address=0xFF8F42, type="u32be", condition="change", min=2500, max=5500, desc="End stage", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xFFB6AD, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFF9F09, type="u8", condition="decrease", desc="lives" },
+      { address=0xFF9F8D, type="u8", condition="decrease", desc="energy" },
+    },
+  }
+}

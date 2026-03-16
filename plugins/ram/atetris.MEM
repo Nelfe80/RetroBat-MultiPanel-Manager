@@ -1,0 +1,20 @@
+return {
+  rom = "atetris",
+events = {
+    ["score"] = {
+      { address=0x600, type="u48be", condition="change", min=1, max=49, desc="Tetromino ( it s based of d*r*(r+h)", is_score=true },
+      { address=0x600, type="u48be", condition="change", min=51, max=149, desc="Score 51", is_score=true },
+      { address=0x600, type="u48be", condition="change", min=151, max=399, desc="Score 151", is_score=true },
+      { address=0x600, type="u48be", condition="change", min=401, max=899, desc="Score 401", is_score=true },
+      { address=0x600, type="u48be", condition="change", min=50, max=50, desc="Single line", is_score=true },
+      { address=0x600, type="u48be", condition="change", min=150, max=150, desc="Double line", is_score=true },
+      { address=0x600, type="u48be", condition="change", min=400, max=400, desc="Triple line", is_score=true },
+      { address=0x600, type="u48be", condition="change", min=900, max=900, desc="Tetris line", is_score=true },
+      { address=0x600, type="u48be", condition="change", min=901, max=2100, desc="Bonus Low Puzzle", is_score=true },
+      { address=0x600, type="u48be", condition="change", min=2000, max=2000, desc="Bonus 2 players", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x00C1, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

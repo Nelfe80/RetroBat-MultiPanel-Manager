@@ -1,0 +1,16 @@
+return {
+  rom = "apache3",
+events = {
+    ["score"] = {
+      { address=0x7848, type="u32be", condition="change", min=50, max=200, desc="", is_score=true },
+      { address=0x7848, type="u32be", condition="change", min=210, max=400, desc="", is_score=true },
+      { address=0x7848, type="u32be", condition="change", min=410, max=600, desc="", is_score=true },
+      { address=0x7848, type="u32be", condition="change", min=610, max=1900, desc="", is_score=true },
+      { address=0x7848, type="u32be", condition="change", min=2000, max=10000, desc="A bonus type range", is_score=true },
+      { address=0x7848, type="u32be", condition="change", min=10000, max=10000, desc="Challenge Stage Perfect", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x7D7A, type="u8", condition="any", desc="credits/lives" },
+    },
+  }
+}

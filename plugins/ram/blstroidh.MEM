@@ -1,0 +1,13 @@
+return {
+  rom = "blstroidh",
+  events = {
+    ["coin"] = {
+      { address=0xFFCF05, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFFE548, type="u8", condition="decrease", desc="energy" },
+      { address=0xFFE55E, type="u8", condition="decrease", desc="shields" },
+      { address=0xFFE55C, type="u8", condition="decrease", desc="power shots" },
+    },
+  }
+}

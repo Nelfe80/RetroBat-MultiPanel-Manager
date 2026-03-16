@@ -1,0 +1,11 @@
+return {
+  rom = "bssoccer",
+events = {
+    ["score"] = {
+      { address=0x200E14, type="u8be", condition="change", min=1, max=100, desc="Goal", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x200070, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

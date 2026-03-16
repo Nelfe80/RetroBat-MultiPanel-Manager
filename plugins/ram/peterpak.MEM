@@ -1,0 +1,19 @@
+return {
+  rom = "peterpak",
+events = {
+    ["score"] = {
+      { address=0x4010DC, type="u32be", condition="change", min=50, max=100, desc="A", is_score=true },
+      { address=0x4010DC, type="u32be", condition="change", min=110, max=200, desc="", is_score=true },
+      { address=0x4010DC, type="u32be", condition="change", min=210, max=500, desc="", is_score=true },
+      { address=0x4010DC, type="u32be", condition="change", min=510, max=1000, desc="", is_score=true },
+      { address=0x4010DC, type="u32be", condition="change", min=1100, max=10000, desc="", is_score=true },
+      { address=0x4010DC, type="u32be", condition="change", min=10100, max=19000, desc="", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x401FF5, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x4010E0, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

@@ -1,0 +1,19 @@
+return {
+  rom = "arbalest",
+events = {
+    ["score"] = {
+      { address=0xF01990, type="u64be", condition="change", min=50, max=1000, desc="", is_score=true },
+      { address=0xF01990, type="u64be", condition="change", min=1100, max=2000, desc="", is_score=true },
+      { address=0xF01990, type="u64be", condition="change", min=2100, max=5000, desc="", is_score=true },
+      { address=0xF01990, type="u64be", condition="change", min=5100, max=99000, desc="", is_score=true },
+      { address=0xF01990, type="u64be", condition="change", min=10000, max=50000, desc="A bonus type range", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0xF0198D, type="u8", condition="decrease", desc="lives" },
+      { address=0xF01988, type="u8", condition="decrease", desc="fire power" },
+    },
+    ["bomb"] = {
+      { address=0xF0198E, type="u8", condition="decrease", desc="bombs" },
+    },
+  }
+}

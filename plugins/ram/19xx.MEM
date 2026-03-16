@@ -1,0 +1,29 @@
+return {
+  rom = "19xx",
+events = {
+    ["score"] = {
+      { address=0xFF8306, type="u32be", condition="change", min=100, max=100, desc="Planes", is_score=true },
+      { address=0xFF8306, type="u32be", condition="change", min=110, max=200, desc="Score 110", is_score=true },
+      { address=0xFF8306, type="u32be", condition="change", min=210, max=290, desc="Score 210", is_score=true },
+      { address=0xFF8306, type="u32be", condition="change", min=300, max=300, desc="Medals", is_score=true },
+      { address=0xFF8306, type="u32be", condition="change", min=500, max=500, desc="Score 500", is_score=true },
+      { address=0xFF8306, type="u32be", condition="change", min=1000, max=1000, desc="Score 1000", is_score=true },
+      { address=0xFF8306, type="u32be", condition="change", min=3000, max=3000, desc="Score 3000", is_score=true },
+      { address=0xFF8306, type="u32be", condition="change", min=1700, max=1700, desc="Bomber at start", is_score=true },
+      { address=0xFF8306, type="u32be", condition="change", min=2000, max=2000, desc="Ships, big planes etc", is_score=true },
+      { address=0xFF8306, type="u32be", condition="change", min=5000, max=5000, desc="Score 5000", is_score=true },
+      { address=0xFF8306, type="u32be", condition="change", min=10000, max=10000, desc="Score 10000", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xFF4D15, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFF82EC, type="u8", condition="decrease", desc="lives" },
+      { address=0xFF8337, type="u8", condition="decrease", desc="have power up" },
+    },
+    ["bomb"] = {
+      { address=0xFF8305, type="u8", condition="decrease", desc="bombs" },
+      { address=0xFF830F, type="u8", condition="decrease", desc="have max bomb power" },
+    },
+  }
+}

@@ -1,0 +1,23 @@
+return {
+  rom = "1941",
+events = {
+    ["score"] = {
+      { address=0xFF0DB6, type="u32be", condition="change", min=100, max=100, desc="Destroy simple plane", is_score=true },
+      { address=0xFF0DB6, type="u32be", condition="change", min=500, max=500, desc="Destroy submarine", is_score=true },
+      { address=0xFF0DB6, type="u32be", condition="change", min=1000, max=1000, desc="Destroy crane, houses, stuff", is_score=true },
+      { address=0xFF0DB6, type="u32be", condition="change", min=2000, max=2000, desc="Various", is_score=true },
+      { address=0xFF0DB6, type="u32be", condition="change", min=5000, max=5000, desc="Various medium", is_score=true },
+      { address=0xFF0DB6, type="u32be", condition="change", min=10000, max=10000, desc="Various high", is_score=true },
+      { address=0xFF0DB6, type="u32be", condition="change", min=50000, max=50000, desc="Holstein", is_score=true },
+      { address=0xFF0DB6, type="u32be", condition="change", min=80000, max=80000, desc="Strawberry", is_score=true },
+      { address=0xFF0DB6, type="u32be", condition="change", min=100000, max=100000, desc="Dragonfly", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xFF0D59, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFF0DA4, type="u16be", condition="decrease", desc="energy" },
+      { address=0xFFC578, type="u8", condition="decrease", desc="extreme firepower" },
+    },
+  }
+}

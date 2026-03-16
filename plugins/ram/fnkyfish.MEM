@@ -1,0 +1,15 @@
+return {
+  rom = "fnkyfish",
+events = {
+    ["score"] = {
+      { address=0xE063, type="u24be", condition="change", min=10, max=30, desc="", is_score=true },
+      { address=0xE063, type="u24be", condition="change", min=40, max=80, desc="", is_score=true },
+      { address=0xE063, type="u24be", condition="change", min=90, max=200, desc="", is_score=true },
+      { address=0xE063, type="u24be", condition="change", min=210, max=500, desc="", is_score=true },
+      { address=0xE063, type="u24be", condition="change", min=510, max=2000, desc="", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0xE06B, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

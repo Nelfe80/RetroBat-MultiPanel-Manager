@@ -1,0 +1,8 @@
+return {
+  rom = "invadersem",
+  events = {
+    ["player1_die"] = {
+      { address=0x21FF, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

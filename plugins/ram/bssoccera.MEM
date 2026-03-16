@@ -1,0 +1,8 @@
+return {
+  rom = "bssoccera",
+  events = {
+    ["coin"] = {
+      { address=0x200070, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

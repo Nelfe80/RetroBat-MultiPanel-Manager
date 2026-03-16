@@ -1,0 +1,8 @@
+return {
+  rom = "atetrisb",
+  events = {
+    ["coin"] = {
+      { address=0x00C1, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

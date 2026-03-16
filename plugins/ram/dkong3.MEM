@@ -1,0 +1,16 @@
+return {
+  rom = "dkong3",
+events = {
+    ["score"] = {
+      { address=0x68F0, type="u24be", condition="change", min=100, max=100, desc="Bug", is_score=true },
+      { address=0x68F0, type="u24be", condition="change", min=200, max=200, desc="Big Bug", is_score=true },
+      { address=0x68F0, type="u24be", condition="change", min=400, max=400, desc="Score 400", is_score=true },
+      { address=0x68F0, type="u24be", condition="change", min=700, max=700, desc="Score 700", is_score=true },
+      { address=0x68F0, type="u24be", condition="change", min=1000, max=1000, desc="Score 1000", is_score=true },
+      { address=0x68F0, type="u24be", condition="change", min=1100, max=5000, desc="Bonus", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x6BF1, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

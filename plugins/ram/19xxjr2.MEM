@@ -1,0 +1,16 @@
+return {
+  rom = "19xxjr2",
+  events = {
+    ["coin"] = {
+      { address=0xFF4D15, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFF82EC, type="u8", condition="decrease", desc="lives" },
+      { address=0xFF8337, type="u8", condition="decrease", desc="have power up" },
+    },
+    ["bomb"] = {
+      { address=0xFF8305, type="u8", condition="decrease", desc="bombs" },
+      { address=0xFF830F, type="u8", condition="decrease", desc="have max bomb power" },
+    },
+  }
+}

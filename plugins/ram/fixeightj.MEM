@@ -1,0 +1,13 @@
+return {
+  rom = "fixeightj",
+  events = {
+    ["coin"] = {
+      { address=0x100327, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x100671, type="u8", condition="decrease", desc="lives" },
+      { address=0x1006AB, type="u8", condition="decrease", desc="fire power" },
+      { address=0x102691, type="u8", condition="decrease", desc="have shield" },
+    },
+  }
+}

@@ -1,0 +1,14 @@
+return {
+  rom = "bagman",
+events = {
+    ["score"] = {
+      { address=0x6176, type="u24be", condition="change", min=10, max=10, desc="", is_score=true },
+      { address=0x6176, type="u24be", condition="change", min=20, max=100, desc="", is_score=true },
+      { address=0x6176, type="u24be", condition="change", min=150, max=1000, desc="", is_score=true },
+      { address=0x6176, type="u24be", condition="change", min=1000, max=9500, desc="A bonus type range", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x6000, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

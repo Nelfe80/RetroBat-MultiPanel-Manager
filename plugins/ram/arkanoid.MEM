@@ -1,0 +1,23 @@
+return {
+  rom = "arkanoid",
+events = {
+    ["score"] = {
+      { address=0xC4D7, type="u24be", condition="change", min=50, max=50, desc="White brick", is_score=true },
+      { address=0xC4D7, type="u24be", condition="change", min=60, max=60, desc="Orange brick", is_score=true },
+      { address=0xC4D7, type="u24be", condition="change", min=70, max=70, desc="Cyan brick", is_score=true },
+      { address=0xC4D7, type="u24be", condition="change", min=80, max=80, desc="Green brick", is_score=true },
+      { address=0xC4D7, type="u24be", condition="change", min=90, max=90, desc="Red brick", is_score=true },
+      { address=0xC4D7, type="u24be", condition="change", min=100, max=100, desc="Blue brick", is_score=true },
+      { address=0xC4D7, type="u24be", condition="change", min=110, max=110, desc="Magenta brick", is_score=true },
+      { address=0xC4D7, type="u24be", condition="change", min=120, max=120, desc="Yellow brick", is_score=true },
+      { address=0xC4D7, type="u24be", condition="change", min=10000, max=10000, desc="Violet capsule", is_score=true },
+      { address=0xC4D7, type="u24be", condition="change", min=20000, max=20000, desc="Extra live at 20000", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xC432, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xED76, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

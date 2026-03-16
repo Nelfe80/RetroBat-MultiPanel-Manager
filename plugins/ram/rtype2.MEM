@@ -1,0 +1,15 @@
+return {
+  rom = "rtype2",
+events = {
+    ["score"] = {
+      { address=0xE381C, type="u32be", condition="change", min=100, max=100, desc="Various scores", is_score=true },
+      { address=0xE381C, type="u32be", condition="change", min=200, max=200, desc="Score 200", is_score=true },
+      { address=0xE381C, type="u32be", condition="change", min=300, max=500, desc="Score 300", is_score=true },
+      { address=0xE381C, type="u32be", condition="change", min=600, max=1000, desc="Score 600", is_score=true },
+      { address=0xE381C, type="u32be", condition="change", min=1100, max=2000, desc="Score 1100", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0xE381A, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

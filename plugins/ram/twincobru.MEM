@@ -1,0 +1,12 @@
+return {
+  rom = "twincobru",
+  events = {
+    ["player1_die"] = {
+      { address=0x31871, type="u8", condition="decrease", desc="lives" },
+      { address=0x3004B, type="u8", condition="decrease", desc="max fire power" },
+    },
+    ["bomb"] = {
+      { address=0x3004D, type="u8", condition="decrease", desc="bombs" },
+    },
+  }
+}

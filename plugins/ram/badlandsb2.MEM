@@ -1,0 +1,11 @@
+return {
+  rom = "badlandsb2",
+  events = {
+    ["coin"] = {
+      { address=0xFFFF1D, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFFF2BB, type="u8", condition="decrease", desc="shields" },
+    },
+  }
+}

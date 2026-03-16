@@ -1,0 +1,15 @@
+return {
+  rom = "levers",
+events = {
+    ["score"] = {
+      { address=0x416D, type="u32be", condition="change", min=10, max=10, desc="", is_score=true },
+      { address=0x416D, type="u32be", condition="change", min=20, max=30, desc="", is_score=true },
+      { address=0x416D, type="u32be", condition="change", min=40, max=60, desc="", is_score=true },
+      { address=0x416D, type="u32be", condition="change", min=70, max=200, desc="", is_score=true },
+      { address=0x416D, type="u32be", condition="change", min=210, max=1000, desc="", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0x4175, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

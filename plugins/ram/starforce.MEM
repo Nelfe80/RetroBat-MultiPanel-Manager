@@ -1,0 +1,8 @@
+return {
+  rom = "starforce",
+  events = {
+    ["player1_die"] = {
+      { address=0x8166, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

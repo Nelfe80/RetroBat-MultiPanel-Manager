@@ -1,0 +1,14 @@
+return {
+  rom = "hal21",
+events = {
+    ["score"] = {
+      { address=0xFC00, type="u64be", condition="change", min=10, max=50, desc="", is_score=true },
+      { address=0xFC00, type="u64be", condition="change", min=60, max=100, desc="", is_score=true },
+      { address=0xFC00, type="u64be", condition="change", min=110, max=200, desc="", is_score=true },
+      { address=0xFC00, type="u64be", condition="change", min=300, max=2000, desc="", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0xFC7C, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

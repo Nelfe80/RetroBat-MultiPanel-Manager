@@ -1,0 +1,30 @@
+return {
+  rom = "1944",
+events = {
+    ["score"] = {
+      { address=0x921D88, type="u32be", condition="change", min=300, max=390, desc="Destroy orange plane", is_score=true },
+      { address=0x921D88, type="u32be", condition="change", min=400, max=490, desc="Destroy blue plane, antiaircraft", is_score=true },
+      { address=0x921D88, type="u32be", condition="change", min=10, max=290, desc="Simple Ship", is_score=true },
+      { address=0x921D88, type="u32be", condition="change", min=500, max=500, desc="Gift or POW", is_score=true },
+      { address=0x921D88, type="u32be", condition="change", min=510, max=990, desc="Medium Planes,tanks or ships", is_score=true },
+      { address=0x921D88, type="u32be", condition="change", min=1000, max=1990, desc="Destroy crane, houses, stuff", is_score=true },
+      { address=0x921D88, type="u32be", condition="change", min=2000, max=2000, desc="Various", is_score=true },
+      { address=0x921D88, type="u32be", condition="change", min=5000, max=5000, desc="Various medium", is_score=true },
+      { address=0x921D88, type="u32be", condition="change", min=10000, max=10000, desc="Various high", is_score=true },
+      { address=0x921D88, type="u32be", condition="change", min=20000, max=20000, desc="Bamboo Sprout", is_score=true },
+      { address=0x921D88, type="u32be", condition="change", min=50000, max=50000, desc="Holstein", is_score=true },
+      { address=0x921D88, type="u32be", condition="change", min=80000, max=80000, desc="Strawberry", is_score=true },
+      { address=0x921D88, type="u32be", condition="change", min=100000, max=100000, desc="Dragonfly", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x921D51, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x9226A5, type="u8", condition="decrease", desc="energy" },
+      { address=0x922429, type="u8", condition="decrease", desc="fire power" },
+    },
+    ["bomb"] = {
+      { address=0x922405, type="u8", condition="decrease", desc="bombs" },
+    },
+  }
+}

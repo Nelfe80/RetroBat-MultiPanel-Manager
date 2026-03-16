@@ -1,0 +1,14 @@
+return {
+  rom = "robotron",
+events = {
+    ["score"] = {
+      { address=0xBDE2, type="u48be", condition="change", min=100, max=100, desc="Grunt", is_score=true },
+      { address=0xBDE2, type="u48be", condition="change", min=150, max=150, desc="Spheroid", is_score=true },
+      { address=0xBDE2, type="u48be", condition="change", min=500, max=500, desc="Brain", is_score=true },
+      { address=0xBDE2, type="u48be", condition="change", min=1000, max=1000, desc="Quark", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0xBDEC, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

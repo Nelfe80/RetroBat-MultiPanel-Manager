@@ -1,0 +1,24 @@
+return {
+  rom = "bloodbro",
+events = {
+    ["score"] = {
+      { address=0x80860, type="u32be", condition="change", min=10, max=10, desc="Shoot rock or similar", is_score=true },
+      { address=0x80860, type="u32be", condition="change", min=100, max=100, desc="Kill foe", is_score=true },
+      { address=0x80860, type="u32be", condition="change", min=1000, max=1000, desc="Buildings, Big enemies,planes,blimps, tincan", is_score=true },
+      { address=0x80860, type="u32be", condition="change", min=2000, max=2000, desc="Score 2000", is_score=true },
+      { address=0x80860, type="u32be", condition="change", min=5000, max=5000, desc="Score 5000", is_score=true },
+      { address=0x80860, type="u32be", condition="change", min=7000, max=7000, desc="Score 7000", is_score=true },
+      { address=0x80860, type="u32be", condition="change", min=10000, max=10000, desc="Score 10000", is_score=true },
+      { address=0x80860, type="u32be", condition="change", min=20000, max=20000, desc="Score 20000", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x8002D, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x8086C, type="u8", condition="decrease", desc="lives" },
+    },
+    ["bomb"] = {
+      { address=0x8086D, type="u8", condition="decrease", desc="bombs" },
+    },
+  }
+}

@@ -1,0 +1,8 @@
+return {
+  rom = "wiseguy",
+  events = {
+    ["coin"] = {
+      { address=0xEA01, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

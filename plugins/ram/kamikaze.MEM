@@ -1,0 +1,14 @@
+return {
+  rom = "kamikaze",
+events = {
+    ["score"] = {
+      { address=0x1D05, type="u16be", condition="change", min=10, max=100, desc="", is_score=true },
+      { address=0x1D05, type="u16be", condition="change", min=110, max=200, desc="", is_score=true },
+      { address=0x1D05, type="u16be", condition="change", min=210, max=500, desc="", is_score=true },
+      { address=0x1D05, type="u16be", condition="change", min=510, max=1000, desc="", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x1F9D, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

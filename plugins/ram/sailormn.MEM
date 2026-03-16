@@ -1,0 +1,19 @@
+return {
+  rom = "sailormn",
+events = {
+    ["score"] = {
+      { address=0x1094BC, type="u64be", condition="change", min=10, max=100, desc="", is_score=true },
+      { address=0x1094BC, type="u64be", condition="change", min=150, max=300, desc="", is_score=true },
+      { address=0x1094BC, type="u64be", condition="change", min=350, max=800, desc="", is_score=true },
+      { address=0x1094BC, type="u64be", condition="change", min=900, max=2000, desc="", is_score=true },
+      { address=0x1094BC, type="u64be", condition="change", min=2000, max=9500, desc="A bonus type range", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x10835F, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x1020F4, type="u8", condition="decrease", desc="lives" },
+      { address=0x102033, type="u8", condition="decrease", desc="energy" },
+    },
+  }
+}

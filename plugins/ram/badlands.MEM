@@ -1,0 +1,17 @@
+return {
+  rom = "badlands",
+events = {
+    ["score"] = {
+      { address=0xFFF2A6, type="u32be", condition="change", min=0, max=10, desc="Score 0", is_score=true },
+      { address=0xFFF2A6, type="u32be", condition="change", min=1000, max=1000, desc="bonus first", is_score=true },
+      { address=0xFFF2A6, type="u32be", condition="change", min=500, max=500, desc="bonus second", is_score=true },
+      { address=0xFFF2A6, type="u32be", condition="change", min=510, max=3000, desc="bonus total", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xFFFF1D, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFFF2BB, type="u8", condition="decrease", desc="shields" },
+    },
+  }
+}

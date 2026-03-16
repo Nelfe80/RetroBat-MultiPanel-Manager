@@ -1,0 +1,15 @@
+return {
+  rom = "guzzler",
+events = {
+    ["score"] = {
+      { address=0x800D, type="u48be", condition="change", min=0, max=50, desc="", is_score=true },
+      { address=0x800D, type="u48be", condition="change", min=100, max=500, desc="", is_score=true },
+      { address=0x800D, type="u48be", condition="change", min=600, max=1000, desc="", is_score=true },
+      { address=0x800D, type="u48be", condition="change", min=2000, max=9500, desc="", is_score=true },
+      { address=0x800D, type="u48be", condition="change", min=30000, max=30000, desc="Bonus", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0x801E, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

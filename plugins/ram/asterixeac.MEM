@@ -1,0 +1,13 @@
+return {
+  rom = "asterixeac",
+  events = {
+    ["coin"] = {
+      { address=0x1040B2, type="u8", condition="any", desc="credits" },
+      { address=0x1040F0, type="u16be", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x104604, type="u8", condition="decrease", desc="lives" },
+      { address=0x104605, type="u8", condition="decrease", desc="energy" },
+    },
+  }
+}

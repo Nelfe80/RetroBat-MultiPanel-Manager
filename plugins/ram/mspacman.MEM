@@ -1,0 +1,24 @@
+return {
+  rom = "mspacman",
+events = {
+    ["score"] = {
+      { address=0x4E80, type="u24be", condition="change", min=10, max=10, desc="dot", is_score=true },
+      { address=0x4E80, type="u24be", condition="change", min=50, max=60, desc="Power pellet", is_score=true },
+      { address=0x4E80, type="u24be", condition="change", min=200, max=210, desc="1 Ghost", is_score=true },
+      { address=0x4E80, type="u24be", condition="change", min=400, max=410, desc="2 Ghost", is_score=true },
+      { address=0x4E80, type="u24be", condition="change", min=800, max=810, desc="3 Ghost", is_score=true },
+      { address=0x4E80, type="u24be", condition="change", min=1600, max=1610, desc="4 Ghost", is_score=true },
+      { address=0x4E80, type="u24be", condition="change", min=100, max=100, desc="Cherry", is_score=true },
+      { address=0x4E80, type="u24be", condition="change", min=300, max=300, desc="Strawberry", is_score=true },
+      { address=0x4E80, type="u24be", condition="change", min=500, max=500, desc="Orange", is_score=true },
+      { address=0x4E80, type="u24be", condition="change", min=700, max=700, desc="Pretzel", is_score=true },
+      { address=0x4E80, type="u24be", condition="change", min=1000, max=1000, desc="Apple", is_score=true },
+      { address=0x4E80, type="u24be", condition="change", min=2000, max=2000, desc="Pear", is_score=true },
+      { address=0x4E80, type="u24be", condition="change", min=5000, max=5000, desc="Banana", is_score=true },
+      { address=0x4E80, type="u24be", condition="change", min=10000, max=10000, desc="?", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x04E6E, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

@@ -1,0 +1,12 @@
+return {
+  rom = "kyros",
+events = {
+    ["score"] = {
+      { address=0x20024, type="u32be", condition="change", min=100, max=100, desc="Base bad guy", is_score=true },
+      { address=0x20024, type="u32be", condition="change", min=2000, max=9500, desc=" SC=400:400:FF_Flasher DV_FLOL,FL_TT,1,450,100,Orange|FF_Flasher DV_FLOR,FL_TT,1,450,100,Orange|FF_DOF E514,800|FF_DOF E518,800  SC=800:800:FF_Flasher DV_FLOL,FL_TT,1,450,100,Cyan|FF_Flasher DV_FLOR,FL_TT,1,450,100,Cyan|FF_DOF E510,1000|FF_DOF E512,1000  SC=1600:1600:FF_Flasher DV_FLCN,FL_TT,1,500,100,Green|FF_Flasher DV_FLIL,FL_TT,1,500,100,Green|FF_Flasher DV_FLIR,FL_TT,1,500,100,Green|FF_DOF E695,1000|FF_DOF E701,1000|FF_DOF E697,1000|FF_DOF E703,1000|FF_DOF E699,1000 A bonus type range", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x2000F, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

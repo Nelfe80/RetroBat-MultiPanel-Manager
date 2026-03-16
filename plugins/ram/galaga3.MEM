@@ -1,0 +1,17 @@
+return {
+  rom = "galaga3",
+events = {
+    ["score"] = {
+      { address=0x9B0, type="u24be", condition="change", min=100, max=100, desc="A single ship stationary", is_score=true },
+      { address=0x9B0, type="u24be", condition="change", min=200, max=200, desc="Ship attacking", is_score=true },
+      { address=0x9B0, type="u24be", condition="change", min=300, max=300, desc="Boss ship", is_score=true },
+      { address=0x9B0, type="u24be", condition="change", min=400, max=400, desc="Fancier ship", is_score=true },
+      { address=0x9B0, type="u24be", condition="change", min=500, max=500, desc="Biggest ship", is_score=true },
+      { address=0x9B0, type="u24be", condition="change", min=1000, max=9500, desc="A challenge stage not perfect", is_score=true },
+      { address=0x9B0, type="u24be", condition="change", min=10000, max=10000, desc="Challenge Stage Bonus", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0x1104, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

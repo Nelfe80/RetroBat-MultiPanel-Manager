@@ -1,0 +1,20 @@
+return {
+  rom = "sf2",
+events = {
+    ["score"] = {
+      { address=0xFF865C, type="u64be", condition="change", min=1, max=100, desc="", is_score=true },
+      { address=0xFF865C, type="u64be", condition="change", min=101, max=300, desc="", is_score=true },
+      { address=0xFF865C, type="u64be", condition="change", min=301, max=500, desc="", is_score=true },
+      { address=0xFF865C, type="u64be", condition="change", min=501, max=999, desc="", is_score=true },
+      { address=0xFF865C, type="u64be", condition="change", min=1000, max=10000, desc="A bonus", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xFF82DD, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFF83F0, type="u16be", condition="decrease", desc="energy" },
+      { address=0xFF83F1, type="u8", condition="decrease", desc="have no energy" },
+      { address=0xFF8583, type="u8", condition="decrease", desc="have no energy" },
+    },
+  }
+}

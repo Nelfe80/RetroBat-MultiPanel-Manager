@@ -1,0 +1,15 @@
+return {
+  rom = "aerofgtc",
+  events = {
+    ["coin"] = {
+      { address=0xC8B90, type="u32be", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xC60DD, type="u8", condition="decrease", desc="lives" },
+      { address=0xC60E1, type="u8", condition="decrease", desc="select fire power" },
+    },
+    ["bomb"] = {
+      { address=0xC60DF, type="u8", condition="decrease", desc="smart bombs" },
+    },
+  }
+}

@@ -1,0 +1,14 @@
+return {
+  rom = "yamyam",
+events = {
+    ["score"] = {
+      { address=0xE901, type="u32be", condition="change", min=50, max=499, desc="A simple regular action", is_score=true },
+      { address=0xE901, type="u32be", condition="change", min=500, max=1000, desc="", is_score=true },
+      { address=0xE901, type="u32be", condition="change", min=1001, max=2000, desc="", is_score=true },
+      { address=0xE901, type="u32be", condition="change", min=10000, max=10000, desc="", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xEA01, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

@@ -1,0 +1,8 @@
+return {
+  rom = "centiped3",
+  events = {
+    ["player1_die"] = {
+      { address=0x00A5, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

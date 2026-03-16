@@ -1,0 +1,14 @@
+return {
+  rom = "altbeast5",
+  events = {
+    ["coin"] = {
+      { address=0xFFF000, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFFE018, type="u8", condition="decrease", desc="lives" },
+      { address=0xFFC04A, type="u8", condition="decrease", desc="energy" },
+      { address=0xFFC06A, type="u16be", condition="decrease", desc="select power-up/beast" },
+      { address=0xFFE01B, type="u8", condition="decrease", desc="select power-up/beast" },
+    },
+  }
+}

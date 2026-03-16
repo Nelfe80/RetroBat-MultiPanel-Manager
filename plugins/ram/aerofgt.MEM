@@ -1,0 +1,30 @@
+return {
+  rom = "aerofgt",
+events = {
+    ["score"] = {
+      { address=0xFF60E8, type="u32be", condition="change", min=100, max=100, desc="Destroy simple plane", is_score=true },
+      { address=0xFF60E8, type="u32be", condition="change", min=200, max=200, desc="Destroy tank,helicopter,orange planes", is_score=true },
+      { address=0xFF60E8, type="u32be", condition="change", min=300, max=300, desc="Destroy green helicopter, Big green plane", is_score=true },
+      { address=0xFF60E8, type="u32be", condition="change", min=500, max=500, desc="Destroy antiaerial", is_score=true },
+      { address=0xFF60E8, type="u32be", condition="change", min=1000, max=1000, desc="Various 1", is_score=true },
+      { address=0xFF60E8, type="u32be", condition="change", min=2000, max=2000, desc="Various 2", is_score=true },
+      { address=0xFF60E8, type="u32be", condition="change", min=3000, max=3000, desc="Dome", is_score=true },
+      { address=0xFF60E8, type="u32be", condition="change", min=5000, max=5000, desc="Various medium", is_score=true },
+      { address=0xFF60E8, type="u32be", condition="change", min=10000, max=10000, desc="Various high", is_score=true },
+      { address=0xFF60E8, type="u32be", condition="change", min=20000, max=20000, desc="Bamboo Sprout", is_score=true },
+      { address=0xFF60E8, type="u32be", condition="change", min=50000, max=50000, desc="Holstein", is_score=true },
+      { address=0xFF60E8, type="u32be", condition="change", min=80000, max=80000, desc="Strawberry", is_score=true },
+      { address=0xFF60E8, type="u32be", condition="change", min=100000, max=100000, desc="Dragonfly", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xFF8B94, type="u32be", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFF60DD, type="u8", condition="decrease", desc="lives" },
+      { address=0xFF60E1, type="u8", condition="decrease", desc="select fire power" },
+    },
+    ["bomb"] = {
+      { address=0xFF60DF, type="u8", condition="decrease", desc="smart bombs" },
+    },
+  }
+}

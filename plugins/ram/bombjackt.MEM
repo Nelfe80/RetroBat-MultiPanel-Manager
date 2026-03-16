@@ -1,0 +1,9 @@
+return {
+  rom = "bombjackt",
+  events = {
+    ["coin"] = {
+      { address=0x8017, type="u8", condition="any", desc="credits" },
+      { address=0x890C, type="u8", condition="any", desc="bonus gives extra credit" },
+    },
+  }
+}

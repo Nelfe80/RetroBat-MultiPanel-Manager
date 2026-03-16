@@ -1,0 +1,14 @@
+return {
+  rom = "megamana",
+  events = {
+    ["player1_die"] = {
+      { address=0xFF8351, type="u8", condition="decrease", desc="energy" },
+      { address=0xFF8459, type="u8", condition="decrease", desc="weapon energy" },
+      { address=0xFF8453, type="u8", condition="decrease", desc="weapon energy" },
+      { address=0xFF8455, type="u8", condition="decrease", desc="weapon energy" },
+      { address=0xFF845B, type="u8", condition="decrease", desc="weapon energy" },
+      { address=0xFF845D, type="u8", condition="decrease", desc="weapon energy" },
+      { address=0xFF8457, type="u8", condition="decrease", desc="weapon energy" },
+    },
+  }
+}

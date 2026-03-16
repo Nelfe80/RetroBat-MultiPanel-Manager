@@ -1,0 +1,11 @@
+return {
+  rom = "bnzabrosj",
+  events = {
+    ["coin"] = {
+      { address=0xFF8428, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xF0059A, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

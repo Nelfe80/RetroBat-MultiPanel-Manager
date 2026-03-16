@@ -1,0 +1,35 @@
+return {
+  rom = "batrider",
+events = {
+    ["score"] = {
+      { address=0x204156, type="u32be", condition="change", min=100, max=199, desc="Enemies", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=200, max=299, desc="Score 200", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=300, max=399, desc="Score 300", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=400, max=499, desc="Score 400", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=500, max=599, desc="Score 500", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=600, max=699, desc="Score 600", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=700, max=799, desc="Score 700", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=800, max=899, desc="Score 800", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=900, max=999, desc="Score 900", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=1000, max=1000, desc="Medals", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=2000, max=2000, desc="Score 2000", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=3000, max=3000, desc="Score 3000", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=4000, max=4000, desc="Score 4000", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=5000, max=5000, desc="Score 5000", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=6000, max=6000, desc="Score 6000", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=7000, max=7000, desc="Score 7000", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=8000, max=8000, desc="Score 8000", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=9000, max=9000, desc="Score 9000", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=10000, max=10000, desc="Score 10000", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=1000000, max=1000000, desc="Extra life", is_score=true },
+      { address=0x204156, type="u32be", condition="change", min=1500000, max=1500000, desc="Secret Extend Item", is_score=true },
+    },
+    ["bomb"] = {
+      { address=0x204174, type="u16be", condition="decrease", desc="bombs" },
+    },
+    ["player1_die"] = {
+      { address=0x204172, type="u8", condition="decrease", desc="front fire power" },
+      { address=0x204166, type="u8", condition="decrease", desc="option fire power" },
+    },
+  }
+}

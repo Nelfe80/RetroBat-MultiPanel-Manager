@@ -1,0 +1,13 @@
+return {
+  rom = "cawingu",
+  events = {
+    ["coin"] = {
+      { address=0xFF82AB, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFF838C, type="u32be", condition="decrease", desc="energy" },
+      { address=0xFF83BD, type="u8", condition="decrease", desc="shield on pickup" },
+      { address=0xFF83C6, type="u8", condition="decrease", desc="weapon power 99 (max)" },
+    },
+  }
+}

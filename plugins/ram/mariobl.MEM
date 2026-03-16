@@ -1,0 +1,8 @@
+return {
+  rom = "mariobl",
+  events = {
+    ["player1_die"] = {
+      { address=0x6116, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

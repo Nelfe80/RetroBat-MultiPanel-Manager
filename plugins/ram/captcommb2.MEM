@@ -1,0 +1,12 @@
+return {
+  rom = "captcommb2",
+  events = {
+    ["coin"] = {
+      { address=0xFFA850, type="u32be", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFFAA7C, type="u8", condition="decrease", desc="lives" },
+      { address=0xFFA9D1, type="u8", condition="decrease", desc="energy" },
+    },
+  }
+}

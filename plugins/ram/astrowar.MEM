@@ -1,0 +1,17 @@
+return {
+  rom = "astrowar",
+events = {
+    ["score"] = {
+      { address=0x1566, type="u24be", condition="change", min=10, max=100, desc="", is_score=true },
+      { address=0x1566, type="u24be", condition="change", min=110, max=400, desc="", is_score=true },
+      { address=0x1566, type="u24be", condition="change", min=410, max=1000, desc="", is_score=true },
+      { address=0x1566, type="u24be", condition="change", min=1100, max=5000, desc="", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x150E, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x156C, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

@@ -1,0 +1,14 @@
+return {
+  rom = "terraf",
+events = {
+    ["score"] = {
+      { address=0x606B6, type="u32be", condition="change", min=50, max=100, desc="", is_score=true },
+      { address=0x606B6, type="u32be", condition="change", min=200, max=200, desc="", is_score=true },
+      { address=0x606B6, type="u32be", condition="change", min=300, max=400, desc="", is_score=true },
+      { address=0x606B6, type="u32be", condition="change", min=500, max=1000, desc="", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0x606BE, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

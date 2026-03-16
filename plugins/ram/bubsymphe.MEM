@@ -1,0 +1,8 @@
+return {
+  rom = "bubsymphe",
+  events = {
+    ["player1_die"] = {
+      { address=0x408272, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

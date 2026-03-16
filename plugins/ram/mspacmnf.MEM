@@ -1,0 +1,8 @@
+return {
+  rom = "mspacmnf",
+  events = {
+    ["coin"] = {
+      { address=0x04E6E, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

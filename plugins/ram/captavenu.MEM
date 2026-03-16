@@ -1,0 +1,11 @@
+return {
+  rom = "captavenu",
+  events = {
+    ["coin"] = {
+      { address=0x1278D8, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x120008, type="u16be", condition="decrease", desc="energy" },
+    },
+  }
+}

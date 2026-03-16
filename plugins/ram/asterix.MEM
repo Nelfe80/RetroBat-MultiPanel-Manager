@@ -1,0 +1,25 @@
+return {
+  rom = "asterix",
+events = {
+    ["score"] = {
+      { address=0x104600, type="u24be", condition="change", min=100, max=100, desc="Soldier, apples,helmet,grapes", is_score=true },
+      { address=0x104600, type="u24be", condition="change", min=200, max=200, desc="Caesar guard", is_score=true },
+      { address=0x104600, type="u24be", condition="change", min=300, max=300, desc="Centurion", is_score=true },
+      { address=0x104600, type="u24be", condition="change", min=400, max=400, desc="Hispanic", is_score=true },
+      { address=0x104600, type="u24be", condition="change", min=500, max=500, desc="Indian soldier", is_score=true },
+      { address=0x104600, type="u24be", condition="change", min=3000, max=3000, desc="Bosses", is_score=true },
+      { address=0x104600, type="u24be", condition="change", min=1500, max=1500, desc="Score 1500", is_score=true },
+      { address=0x104600, type="u24be", condition="change", min=2000, max=2000, desc="Gladiator at coliseum", is_score=true },
+      { address=0x104600, type="u24be", condition="change", min=1000, max=1000, desc="Tiger and Tamer at coliseum", is_score=true },
+      { address=0x104600, type="u24be", condition="change", min=2000, max=9000, desc="Bonus Stage", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x1040B2, type="u8", condition="any", desc="credits" },
+      { address=0x1040F0, type="u16be", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x104604, type="u8", condition="decrease", desc="lives" },
+      { address=0x104605, type="u8", condition="decrease", desc="energy" },
+    },
+  }
+}

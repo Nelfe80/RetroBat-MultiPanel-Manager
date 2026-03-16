@@ -1,0 +1,15 @@
+return {
+  rom = "eeekk",
+events = {
+    ["score"] = {
+      { address=0x7CA2, type="u24be", condition="change", min=50, max=160, desc="A simple regular action", is_score=true },
+      { address=0x7CA2, type="u24be", condition="change", min=400, max=400, desc="", is_score=true },
+      { address=0x7CA2, type="u24be", condition="change", min=800, max=800, desc="", is_score=true },
+      { address=0x7CA2, type="u24be", condition="change", min=1600, max=1600, desc="", is_score=true },
+      { address=0x7CA2, type="u24be", condition="change", min=2000, max=9500, desc="A bonus type range", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x7CAD, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

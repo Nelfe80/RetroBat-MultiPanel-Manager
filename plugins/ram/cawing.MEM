@@ -1,0 +1,32 @@
+return {
+  rom = "cawing",
+events = {
+    ["score"] = {
+      { address=0xFF83A8, type="u32be", condition="change", min=100, max=100, desc="Planes,helicopters", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=150, max=150, desc="Missile truck", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=200, max=200, desc="Tanks,antiaerials,", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=250, max=250, desc="Parts of ship", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=300, max=300, desc="Missile launcher", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=400, max=400, desc="Ship turrets", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=450, max=450, desc="Ship chopper", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=500, max=500, desc="Big tank,ship turrets", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=600, max=600, desc="Parts of ship", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=1000, max=1000, desc="Big plane tail,parts of big ship", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=1200, max=1200, desc="Big plane,big chopper", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=320, max=320, desc="Items Yellow", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=500, max=500, desc="Blue", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=540, max=540, desc="Score 540", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=6000, max=6000, desc="Statue Mission 6", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=5000, max=5000, desc="Finishing Bonus", is_score=true },
+      { address=0xFF83A8, type="u32be", condition="change", min=10000, max=50000, desc="Score 10000", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xFF82AB, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFF838C, type="u32be", condition="decrease", desc="energy" },
+      { address=0xFF83BD, type="u8", condition="decrease", desc="shield on pickup" },
+      { address=0xFF83C6, type="u8", condition="decrease", desc="weapon power 99 (max)" },
+    },
+  }
+}

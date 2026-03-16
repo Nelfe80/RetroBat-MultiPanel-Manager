@@ -1,0 +1,12 @@
+return {
+  rom = "sailormnj",
+  events = {
+    ["coin"] = {
+      { address=0x10835F, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x1020F4, type="u8", condition="decrease", desc="lives" },
+      { address=0x102033, type="u8", condition="decrease", desc="energy" },
+    },
+  }
+}

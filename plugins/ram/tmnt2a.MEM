@@ -1,0 +1,9 @@
+return {
+  rom = "tmnt2a",
+  events = {
+    ["player1_die"] = {
+      { address=0x104100, type="u16be", condition="decrease", desc="lives" },
+      { address=0x106008, type="u8", condition="decrease", desc="energy" },
+    },
+  }
+}

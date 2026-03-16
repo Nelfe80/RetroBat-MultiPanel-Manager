@@ -1,0 +1,9 @@
+return {
+  rom = "avspu",
+  events = {
+    ["player1_die"] = {
+      { address=0xFF8471, type="u8", condition="decrease", desc="lives" },
+      { address=0xFF83C1, type="u8", condition="decrease", desc="health" },
+    },
+  }
+}

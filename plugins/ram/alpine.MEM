@@ -1,0 +1,15 @@
+return {
+  rom = "alpine",
+events = {
+    ["score"] = {
+      { address=0x8085, type="u24be", condition="change", min=100, max=100, desc="", is_score=true },
+      { address=0x8085, type="u24be", condition="change", min=200, max=700, desc="", is_score=true },
+      { address=0x8085, type="u24be", condition="change", min=800, max=1000, desc="", is_score=true },
+      { address=0x8085, type="u24be", condition="change", min=1100, max=2000, desc="", is_score=true },
+      { address=0x8085, type="u24be", condition="change", min=2100, max=10000, desc="A bonus type range", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x8099, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

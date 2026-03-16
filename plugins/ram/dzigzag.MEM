@@ -1,0 +1,8 @@
+return {
+  rom = "dzigzag",
+  events = {
+    ["player1_die"] = {
+      { address=0x840A, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

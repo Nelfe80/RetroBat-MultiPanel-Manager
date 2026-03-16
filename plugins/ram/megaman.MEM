@@ -1,0 +1,19 @@
+return {
+  rom = "megaman",
+events = {
+    ["score"] = {
+      { address=0xFF8390, type="u32be", condition="change", min=10, max=1000, desc="General scoring band", is_score=true },
+      { address=0xFF8390, type="u32be", condition="change", min=50000, max=100000, desc="Robot Master", is_score=true },
+      { address=0xFF8390, type="u32be", condition="change", min=200000, max=200000, desc="Dr Wily", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0xFF8351, type="u8", condition="decrease", desc="energy" },
+      { address=0xFF8459, type="u8", condition="decrease", desc="weapon energy" },
+      { address=0xFF8453, type="u8", condition="decrease", desc="weapon energy" },
+      { address=0xFF8455, type="u8", condition="decrease", desc="weapon energy" },
+      { address=0xFF845B, type="u8", condition="decrease", desc="weapon energy" },
+      { address=0xFF845D, type="u8", condition="decrease", desc="weapon energy" },
+      { address=0xFF8457, type="u8", condition="decrease", desc="weapon energy" },
+    },
+  }
+}

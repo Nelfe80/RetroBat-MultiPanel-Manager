@@ -1,0 +1,8 @@
+return {
+  rom = "rtype2j",
+  events = {
+    ["player1_die"] = {
+      { address=0xE381A, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

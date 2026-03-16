@@ -1,0 +1,14 @@
+return {
+  rom = "laserbat",
+events = {
+    ["score"] = {
+      { address=0x1CB2, type="u64be", condition="change", min=10, max=100, desc="", is_score=true },
+      { address=0x1CB2, type="u64be", condition="change", min=110, max=300, desc="", is_score=true },
+      { address=0x1CB2, type="u64be", condition="change", min=310, max=1000, desc="", is_score=true },
+      { address=0x1CB2, type="u64be", condition="change", min=1100, max=10000, desc="", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x1C7D, type="u8", condition="any", desc="credits" },
+    },
+  }
+}

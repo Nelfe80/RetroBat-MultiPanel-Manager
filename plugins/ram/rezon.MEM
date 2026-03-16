@@ -1,0 +1,18 @@
+return {
+  rom = "rezon",
+events = {
+    ["score"] = {
+      { address=0x200638, type="u32be", condition="change", min=100, max=160, desc="", is_score=true },
+      { address=0x200638, type="u32be", condition="change", min=200, max=300, desc="", is_score=true },
+      { address=0x200638, type="u32be", condition="change", min=400, max=700, desc="", is_score=true },
+      { address=0x200638, type="u32be", condition="change", min=800, max=2000, desc="", is_score=true },
+      { address=0x200638, type="u32be", condition="change", min=2001, max=10000, desc="", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x201C41, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x20063D, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

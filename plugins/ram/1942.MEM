@@ -1,0 +1,18 @@
+return {
+  rom = "1942",
+events = {
+    ["score"] = {
+      { address=0xE048, type="u64be", condition="change", min=30, max=30, desc="Planes are 30,50,70,100 and 200", is_score=true },
+      { address=0xE048, type="u64be", condition="change", min=50, max=50, desc="Score 50", is_score=true },
+      { address=0xE048, type="u64be", condition="change", min=50, max=50, desc="Score 50", is_score=true },
+      { address=0xE048, type="u64be", condition="change", min=70, max=70, desc="Score 70", is_score=true },
+      { address=0xE048, type="u64be", condition="change", min=100, max=100, desc="Score 100", is_score=true },
+      { address=0xE048, type="u64be", condition="change", min=200, max=200, desc="Score 200", is_score=true },
+      { address=0xE048, type="u64be", condition="change", min=1000, max=1500, desc="Bonus Points", is_score=true },
+      { address=0xE048, type="u64be", condition="change", min=20000, max=50000, desc="Challenge Stage Bonus", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xE010, type="u16be", condition="any", desc="credits" },
+    },
+  }
+}

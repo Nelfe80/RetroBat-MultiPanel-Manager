@@ -1,0 +1,11 @@
+return {
+  rom = "1943b",
+  events = {
+    ["coin"] = {
+      { address=0xE312, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xF206, type="u8", condition="decrease", desc="energy" },
+    },
+  }
+}

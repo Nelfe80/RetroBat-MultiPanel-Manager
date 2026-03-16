@@ -1,0 +1,17 @@
+return {
+  rom = "cavenger",
+events = {
+    ["score"] = {
+      { address=0x60E8, type="u24be", condition="change", min=10, max=100, desc="", is_score=true },
+      { address=0x60E8, type="u24be", condition="change", min=110, max=200, desc="", is_score=true },
+      { address=0x60E8, type="u24be", condition="change", min=210, max=500, desc="", is_score=true },
+      { address=0x60E8, type="u24be", condition="change", min=500, max=10000, desc="A bonus type range", is_score=true },
+    },
+    ["coin"] = {
+      { address=0x6004, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x60E7, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

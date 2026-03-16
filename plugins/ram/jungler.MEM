@@ -1,0 +1,14 @@
+return {
+  rom = "jungler",
+events = {
+    ["score"] = {
+      { address=0x9912, type="u32be", condition="change", min=10, max=200, desc="", is_score=true },
+      { address=0x9912, type="u32be", condition="change", min=210, max=500, desc="", is_score=true },
+      { address=0x9912, type="u32be", condition="change", min=510, max=1000, desc="", is_score=true },
+      { address=0x9912, type="u32be", condition="change", min=1100, max=10000, desc="", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0x9F00, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

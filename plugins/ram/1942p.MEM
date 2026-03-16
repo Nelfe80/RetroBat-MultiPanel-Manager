@@ -1,0 +1,8 @@
+return {
+  rom = "1942p",
+  events = {
+    ["coin"] = {
+      { address=0xE010, type="u16be", condition="any", desc="credits" },
+    },
+  }
+}

@@ -1,0 +1,8 @@
+return {
+  rom = "jackler",
+  events = {
+    ["player1_die"] = {
+      { address=0x9F00, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

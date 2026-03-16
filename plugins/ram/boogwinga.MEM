@@ -1,0 +1,12 @@
+return {
+  rom = "boogwinga",
+  events = {
+    ["coin"] = {
+      { address=0x20804E, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0x2080C8, type="u8", condition="decrease", desc="lives" },
+      { address=0x208247, type="u8", condition="decrease", desc="select shot power" },
+    },
+  }
+}

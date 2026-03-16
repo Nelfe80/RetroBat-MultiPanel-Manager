@@ -1,0 +1,14 @@
+return {
+  rom = "sicv",
+events = {
+    ["score"] = {
+      { address=0x20F8, type="u16be", condition="change", min=10, max=10, desc="Ship Scores", is_score=true },
+      { address=0x20F8, type="u16be", condition="change", min=20, max=20, desc="Score 20", is_score=true },
+      { address=0x20F8, type="u16be", condition="change", min=30, max=30, desc="Score 30", is_score=true },
+      { address=0x20F8, type="u16be", condition="change", min=40, max=100, desc="Mystery", is_score=true },
+    },
+    ["player1_die"] = {
+      { address=0x21FF, type="u8", condition="decrease", desc="lives" },
+    },
+  }
+}

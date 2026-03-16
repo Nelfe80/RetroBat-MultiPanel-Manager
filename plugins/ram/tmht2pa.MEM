@@ -1,0 +1,9 @@
+return {
+  rom = "tmht2pa",
+  events = {
+    ["player1_die"] = {
+      { address=0x60101, type="u8", condition="decrease", desc="lives" },
+      { address=0x62008, type="u8", condition="decrease", desc="energy" },
+    },
+  }
+}

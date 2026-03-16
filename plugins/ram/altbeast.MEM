@@ -1,0 +1,22 @@
+return {
+  rom = "altbeast",
+events = {
+    ["score"] = {
+      { address=0xFFE000, type="u32be", condition="change", min=100, max=100, desc="Simple monster/corpse", is_score=true },
+      { address=0xFFE000, type="u32be", condition="change", min=200, max=200, desc="Flying gargoyle", is_score=true },
+      { address=0xFFE000, type="u32be", condition="change", min=300, max=300, desc="Blue monster/corpse,terran bird", is_score=true },
+      { address=0xFFE000, type="u32be", condition="change", min=500, max=500, desc="Dragon/giant snake", is_score=true },
+      { address=0xFFE000, type="u32be", condition="change", min=1000, max=1000, desc="Brilliant wolf", is_score=true },
+      { address=0xFFE000, type="u32be", condition="change", min=20000, max=50000, desc="Round clear bonus", is_score=true },
+    },
+    ["coin"] = {
+      { address=0xFFF000, type="u8", condition="any", desc="credits" },
+    },
+    ["player1_die"] = {
+      { address=0xFFE018, type="u8", condition="decrease", desc="lives" },
+      { address=0xFFC04A, type="u8", condition="decrease", desc="energy" },
+      { address=0xFFC06A, type="u16be", condition="decrease", desc="select power-up/beast" },
+      { address=0xFFE01B, type="u8", condition="decrease", desc="select power-up/beast" },
+    },
+  }
+}
